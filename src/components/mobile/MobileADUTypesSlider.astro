@@ -1,0 +1,169 @@
+---
+const cards = [
+  {
+    image: "images/Attached ADU.png",
+    title: "Attached ADU",
+    subtitle: "More space, connected to your home.",
+    description: "An attached ADU shares a wall with the main house while maintaining a private entrance and full living amenities. It offers a cost-effective way to expand your property.",
+    bestFor: "Homeowners who want to add living space or rental income without using backyard square footage."
+  },
+  {
+    image: "images/Detached ADU.png",
+    title: "Detached ADU",
+    subtitle: "A fully independent unit built in your backyard.",
+    description: "A detached ADU is a standalone home with its own entrance, kitchen, bathroom, and living space. It offers maximum privacy and excellent rental income potential.",
+    bestFor: "Homeowners with available backyard space who want maximum rental income or a fully private family suite."
+  },
+  {
+    image: "images/Garage Conversion.png",
+    title: "Garage Conversion",
+    subtitle: "Your most cost-effective path to rental income.",
+    description: "Convert your existing garage into a fully permitted ADU. Since the structure already exists, projects are typically faster and more affordable.",
+    bestFor: "Homeowners with an unused garage who want the quickest and most cost-effective ADU option."
+  },
+  {
+    image: "images/Above-Garage ADU.png",
+    title: "Above-Garage ADU",
+    subtitle: "Build up, not out — and keep your parking.",
+    description: "Add a private living space above your garage while preserving your yard and parking. A smart solution for maximizing limited lot space.",
+    bestFor: "Homeowners with a detached garage who want to maximize their property's potential."
+  },
+  {
+    image: "images/Two-Story ADU.png",
+    title: "Two-Story ADU",
+    subtitle: "Double the space without expanding your footprint.",
+    description: "A two-story ADU maximizes living space by building vertically, making it ideal for smaller lots while preserving valuable outdoor areas.",
+    bestFor: "Homeowners who need more square footage without sacrificing backyard space."
+  },
+  {
+    image: "images/JADU.png",
+    title: "JADU",
+    subtitle: "Convert existing space into a functional living unit.",
+    description: "A JADU transforms part of your existing home into a self-contained space with its own entrance and kitchenette. It benefits from California's simplified permitting process.",
+    bestFor: "Homeowners who want an affordable ADU using existing interior space."
+  }
+];
+---
+<div id="mobile-adu-types-slider" style="width: 480px; background-color: #ffffff; padding: 35px 0; box-sizing: border-box; display: flex; flex-direction: column; align-items: center;">
+  
+  <!-- Slider Viewport -->
+  <div class="adu-viewport" style="width: 420px; overflow: hidden; position: relative;">
+    
+    <!-- Slider Track -->
+    <div class="adu-track" id="adu-track" style="display: flex; width: max-content; transition: transform 0.4s ease-in-out;">
+      {cards.map((card) => (
+        <div class="adu-card-slide" style="width: 420px; flex-shrink: 0; box-sizing: border-box; display: flex; flex-direction: column; background-color: #ffffff; border: 1px solid #e3e3e3; padding: 20px; gap: 15px;">
+          
+          <!-- Image Box (All White Background, no borders) -->
+          <div style="width: 100%; height: 280px; background-color: #ffffff; display: flex; align-items: center; justify-content: center; overflow: hidden;">
+            <img alt={card.title} src={card.image} style="width: 100%; height: 100%; object-fit: contain;" />
+          </div>
+          
+          <!-- Title -->
+          <h3 style="font-family: 'Playfair Display', serif; font-size: 26px; font-weight: 700; color: #0071c8; margin: 0; text-align: center;">
+            {card.title}
+          </h3>
+          
+          <!-- Subtitle -->
+          <p style="font-family: Inter, sans-serif; font-size: 16px; font-weight: 700; font-style: italic; color: #111111; margin: 0; line-height: 1.2em; text-align: center;">
+            {card.subtitle}
+          </p>
+          
+          <!-- Description -->
+          <p style="font-family: Inter, sans-serif; font-size: 16px; font-weight: 400; color: #7E7E7E; margin: 0; line-height: 1.3em; text-align: center;">
+            {card.description}
+          </p>
+          
+          <!-- Best For Block -->
+          <div style="background-color: #0071c8; padding: 12px 15px; box-sizing: border-box; display: flex; align-items: center; width: 100%;">
+            <!-- Left part (Best For & Arrow) -->
+            <div style="display: flex; flex-direction: column; align-items: flex-start; border-right: 1px solid rgba(255,255,255,0.3); padding-right: 12px; margin-right: 12px; flex-shrink: 0;">
+              <span style="color: #ffffff; font-family: Inter, sans-serif; font-size: 16px; font-weight: 700; font-style: italic; line-height: 1em; margin-bottom: 2px;">
+                Best
+              </span>
+              <span style="color: #ffffff; font-family: Inter, sans-serif; font-size: 16px; font-weight: 700; font-style: italic; line-height: 1em; margin-bottom: 4px;">
+                for:
+              </span>
+              <!-- Arrow Icon -->
+              <svg width="24" height="10" viewBox="0 0 24 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 5H22M22 5L17.5 1M22 5L17.5 9" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <!-- Right part (Description) -->
+            <p style="color: #ffffff; font-family: Inter, sans-serif; font-size: 14px; font-weight: 400; line-height: 1.3em; margin: 0;">
+              {card.bestFor}
+            </p>
+          </div>
+          
+        </div>
+      ))}
+    </div>
+
+  </div>
+
+  <!-- Navigation Dots -->
+  <div style="display: flex; gap: 8px; margin-top: 20px; justify-content: center;">
+    {cards.map((_, index) => (
+      <div 
+        class="adu-dot" 
+        data-index={index} 
+        style="width: 10px; height: 10px; border-radius: 50%; background-color: #cccccc; cursor: pointer; transition: background-color 0.3s;"
+      />
+    ))}
+  </div>
+
+</div>
+
+<script is:inline>
+  (function() {
+    var track = document.getElementById('adu-track');
+    var dots = document.querySelectorAll('.adu-dot');
+    if (!track || dots.length === 0) return;
+
+    var currentIndex = 0;
+    var slideWidth = 420;
+    var totalSlides = dots.length;
+    var autoSlideInterval;
+
+    function updateSlider(index) {
+      currentIndex = index;
+      track.style.transform = 'translateX(' + (-currentIndex * slideWidth) + 'px)';
+      
+      // Update dots style
+      dots.forEach(function(dot, idx) {
+        if (idx === currentIndex) {
+          dot.style.backgroundColor = '#0071c8';
+        } else {
+          dot.style.backgroundColor = '#cccccc';
+        }
+      });
+    }
+
+    // Set first dot as active initially
+    updateSlider(0);
+
+    // Click handlers for dots
+    dots.forEach(function(dot) {
+      dot.addEventListener('click', function() {
+        var index = parseInt(dot.getAttribute('data-index'), 10);
+        updateSlider(index);
+        resetAutoSlide();
+      });
+    });
+
+    // Auto-slide functionality
+    function startAutoSlide() {
+      autoSlideInterval = setInterval(function() {
+        var nextIndex = (currentIndex + 1) % totalSlides;
+        updateSlider(nextIndex);
+      }, 4000);
+    }
+
+    function resetAutoSlide() {
+      clearInterval(autoSlideInterval);
+      startAutoSlide();
+    }
+
+    startAutoSlide();
+  })();
+</script>

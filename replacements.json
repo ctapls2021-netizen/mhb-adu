@@ -1,0 +1,137 @@
+[
+  {
+    "file": "Process.astro",
+    "target": "<img alt=\"\" class=\"css-trglf0 css-i12894\" loading=\"lazy\" sizes=\"auto,306.4701409381364px\" src=\"/index Adu_files/8fc2e45a827f35093be9bdfb939c1ae2c3eb10a2.png\" srcset=\"/_assets/v11/8fc2e45a827f35093be9bdfb939c1ae2c3eb10a2.png 1536w, /_assets/v11/8fc2e45a827f35093be9bdfb939c1ae2c3eb10a2.png?w=1938 1938w\"/>",
+    "replace_with": "/images/25+ Years of Local Experience.png"
+  },
+  {
+    "file": "ADUTypes.astro",
+    "target": "<img alt=\"\" class=\"css-trglf0 css-y9pif0\" loading=\"lazy\" sizes=\"auto,302.61081812119073px\" src=\"/index Adu_files/33b1e841b8892abbec41e0e129c52fe6a745adea.png\" srcset=\"/_assets/v11/33b1e841b8892abbec41e0e129c52fe6a745adea.png 793w, /_assets/v11/33b1e841b8892abbec41e0e129c52fe6a745adea.png?w=437 437w\"/>",
+    "replace_with": "/images/Above-Garage ADU.png"
+  },
+  {
+    "file": "ADUTypes.astro",
+    "target": "<img alt=\"\" class=\"css-trglf0 css-y9pif0\" loading=\"lazy\" sizes=\"auto,302.61081812119073px\" src=\"/index Adu_files/33b1e841b8892abbec41e0e129c52fe6a745adea.png\" srcset=\"/_assets/v11/33b1e841b8892abbec41e0e129c52fe6a745adea.png 793w, /_assets/v11/33b1e841b8892abbec41e0e129c52fe6a745adea.png?w=437 437w\"/>",
+    "replace_with": "/images/Attached ADU.png"
+  },
+  {
+    "file": "Process.astro",
+    "target": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/e01bf69bfab66a27151424ea3e2dfc2db41c7108.svg\"/>",
+    "replace_with": "/images/Boost Property Value.png"
+  },
+  {
+    "file": "Process.astro",
+    "target": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/index Adu_files/e4eb230760c92670c7fdd08a7ac063bd8efa0da5.svg\"/>",
+    "replace_with": "/images/Check My Property's ADU Eligibility - It's Free.png"
+  },
+  {
+    "file": "Process.astro",
+    "target": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/index Adu_files/98317c3c37a06e282c96c6a93249bfc4010b865d.svg\"/>",
+    "replace_with": "/images/Dedicated Project Manager.png"
+  },
+  {
+    "file": "ADUTypes.astro",
+    "target": "<img alt=\"\" class=\"css-trglf0 css-y9pif0\" loading=\"lazy\" sizes=\"auto,302.61081812119073px\" src=\"/index Adu_files/33b1e841b8892abbec41e0e129c52fe6a745adea.png\" srcset=\"/_assets/v11/33b1e841b8892abbec41e0e129c52fe6a745adea.png 793w, /_assets/v11/33b1e841b8892abbec41e0e129c52fe6a745adea.png?w=437 437w\"/>",
+    "replace_with": "/images/Detached ADU.png"
+  },
+  {
+    "file": "Process.astro",
+    "target": "<img alt=\"\" class=\"css-trglf0 css-i12894\" loading=\"lazy\" sizes=\"auto,306.4701409381364px\" src=\"/index Adu_files/8fc2e45a827f35093be9bdfb939c1ae2c3eb10a2.png\" srcset=\"/_assets/v11/8fc2e45a827f35093be9bdfb939c1ae2c3eb10a2.png 1536w, /_assets/v11/8fc2e45a827f35093be9bdfb939c1ae2c3eb10a2.png?w=1938 1938w\"/>",
+    "replace_with": "/images/Everything Under One Roof.png"
+  },
+  {
+    "file": "Process.astro",
+    "target": "<img alt=\"\" class=\"css-trglf0 css-f0o2nb\" loading=\"lazy\" sizes=\"auto,292.6231509914964px\" src=\"/index Adu_files/8fc2e45a827f35093be9bdfb939c1ae2c3eb10a2.png\" srcset=\"/_assets/v11/8fc2e45a827f35093be9bdfb939c1ae2c3eb10a2.png 1536w, /_assets/v11/8fc2e45a827f35093be9bdfb939c1ae2c3eb10a2.png?w=1850 1850w\"/>",
+    "replace_with": "/images/Free 3D Design Rendering.png"
+  },
+  {
+    "file": "WhyChooseUs.astro",
+    "target": "<img alt=\"\" class=\"css-ez8men css-trglf0 css-iafcae\" loading=\"lazy\" sizes=\"auto,86px\" src=\"/index Adu_files/12152694e89d57a645f69630ce30dfbcc7dce633.png\" srcset=\"/_assets/v11/12152694e89d57a645f69630ce30dfbcc7dce633.png 1536w, /_assets/v11/12152694e89d57a645f69630ce30dfbcc7dce633.png?w=128 128w, /_assets/v11/12152694e89d57a645f69630ce30dfbcc7dce633.png?w=256 256w\"/>",
+    "replace_with": "/images/Fully Licensed & Insured.png"
+  },
+  {
+    "file": "ADUTypes.astro",
+    "target": "<img alt=\"\" class=\"css-trglf0 css-y9pif0\" loading=\"lazy\" sizes=\"auto,302.61081812119073px\" src=\"/index Adu_files/33b1e841b8892abbec41e0e129c52fe6a745adea.png\" srcset=\"/_assets/v11/33b1e841b8892abbec41e0e129c52fe6a745adea.png 793w, /_assets/v11/33b1e841b8892abbec41e0e129c52fe6a745adea.png?w=437 437w\"/>",
+    "replace_with": "/images/Garage Conversion.png"
+  },
+  {
+    "file": "Process.astro",
+    "target": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/e01bf69bfab66a27151424ea3e2dfc2db41c7108.svg\"/>",
+    "replace_with": "/images/Generate Rental Income.png"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "target": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "replace_with": "/images/google.svg"
+  },
+  {
+    "file": "WhyChooseUs.astro",
+    "target": "<img alt=\"\" class=\"css-ez8men css-trglf0 css-iafcae\" loading=\"lazy\" sizes=\"auto,86px\" src=\"/index Adu_files/a2ac1660928341d2a544d272f62b9156e3648e46.png\" srcset=\"/_assets/v11/a2ac1660928341d2a544d272f62b9156e3648e46.png 1536w, /_assets/v11/a2ac1660928341d2a544d272f62b9156e3648e46.png?w=128 128w, /_assets/v11/a2ac1660928341d2a544d272f62b9156e3648e46.png?w=256 256w\"/>",
+    "replace_with": "/images/Iron-Clad Fixed Pricing.png"
+  },
+  {
+    "file": "ADUTypes.astro",
+    "target": "<img alt=\"\" class=\"css-trglf0 css-y9pif0\" loading=\"lazy\" sizes=\"auto,302.61081812119073px\" src=\"/index Adu_files/33b1e841b8892abbec41e0e129c52fe6a745adea.png\" srcset=\"/_assets/v11/33b1e841b8892abbec41e0e129c52fe6a745adea.png 793w, /_assets/v11/33b1e841b8892abbec41e0e129c52fe6a745adea.png?w=437 437w\"/>",
+    "replace_with": "/images/JADU.png"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "target": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "replace_with": "/images/Just Take Our Word For It..png"
+  },
+  {
+    "file": "Process.astro",
+    "target": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/e01bf69bfab66a27151424ea3e2dfc2db41c7108.svg\"/>",
+    "replace_with": "/images/Keep Family Close.png"
+  },
+  {
+    "file": "Process.astro",
+    "target": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/index Adu_files/e4eb230760c92670c7fdd08a7ac063bd8efa0da5.svg\"/>",
+    "replace_with": "/images/Not sure which type fits your property.webp"
+  },
+  {
+    "file": "Process.astro",
+    "target": "<img alt=\"\" class=\"css-trglf0 css-1tlhgb\" loading=\"lazy\" sizes=\"auto,306.4701409381364px\" src=\"/index Adu_files/8fc2e45a827f35093be9bdfb939c1ae2c3eb10a2.png\" srcset=\"/_assets/v11/8fc2e45a827f35093be9bdfb939c1ae2c3eb10a2.png 1536w, /_assets/v11/8fc2e45a827f35093be9bdfb939c1ae2c3eb10a2.png?w=1938 1938w\"/>",
+    "replace_with": "/images/Permit Experts.png"
+  },
+  {
+    "file": "Process.astro",
+    "target": "<img alt=\"\" class=\"css-trglf0 css-pncdkq\" loading=\"lazy\" sizes=\"auto,1922px\" src=\"/index Adu_files/9b939839ff80178263170408151d8b52c5447381.png\" srcset=\"/_assets/v11/9b939839ff80178263170408151d8b52c5447381.png 3072w, /_assets/v11/9b939839ff80178263170408151d8b52c5447381.png?w=2048 2048w, /_assets/v11/9b939839ff80178263170408151d8b52c5447381.png?w=2560 2560w, /_assets/v11/9b939839ff80178263170408151d8b52c5447381.png?w=3072 3072w\"/>",
+    "replace_with": "/images/See If I Qualify for 0% Financing.svg"
+  },
+  {
+    "file": "Process.astro",
+    "target": "<img alt=\"\" class=\"css-trglf0 css-f0o2nb\" loading=\"lazy\" sizes=\"auto,292.6231509914964px\" src=\"/index Adu_files/8fc2e45a827f35093be9bdfb939c1ae2c3eb10a2.png\" srcset=\"/_assets/v11/8fc2e45a827f35093be9bdfb939c1ae2c3eb10a2.png 1536w, /_assets/v11/8fc2e45a827f35093be9bdfb939c1ae2c3eb10a2.png?w=1850 1850w\"/>",
+    "replace_with": "/images/Speed to Completion.png"
+  },
+  {
+    "file": "Process.astro",
+    "target": "<img alt=\"\" class=\"css-trglf0 css-pw3nca\" loading=\"lazy\" sizes=\"auto,371.8558138781875px\" src=\"/index Adu_files/22e194fc820e920ab7aea75101d26d5835bcf1ac.png\" srcset=\"/_assets/v11/22e194fc820e920ab7aea75101d26d5835bcf1ac.png 1536w, /_assets/v11/22e194fc820e920ab7aea75101d26d5835bcf1ac.png?w=1656 1656w, /_assets/v11/22e194fc820e920ab7aea75101d26d5835bcf1ac.png?w=3312 3312w\"/>",
+    "replace_with": "/images/The Ultimate Home Office.png"
+  },
+  {
+    "file": "ADUTypes.astro",
+    "target": "<img alt=\"\" class=\"css-trglf0 css-y9pif0\" loading=\"lazy\" sizes=\"auto,302.61081812119073px\" src=\"/index Adu_files/33b1e841b8892abbec41e0e129c52fe6a745adea.png\" srcset=\"/_assets/v11/33b1e841b8892abbec41e0e129c52fe6a745adea.png 793w, /_assets/v11/33b1e841b8892abbec41e0e129c52fe6a745adea.png?w=437 437w\"/>",
+    "replace_with": "/images/Two-Story ADU.png"
+  },
+  {
+    "file": "Process.astro",
+    "target": "<img alt=\"\" class=\"css-trglf0 css-1tlhgb\" loading=\"lazy\" sizes=\"auto,306.4701409381364px\" src=\"/index Adu_files/8fc2e45a827f35093be9bdfb939c1ae2c3eb10a2.png\" srcset=\"/_assets/v11/8fc2e45a827f35093be9bdfb939c1ae2c3eb10a2.png 1536w, /_assets/v11/8fc2e45a827f35093be9bdfb939c1ae2c3eb10a2.png?w=1938 1938w\"/>",
+    "replace_with": "/images/Why 115+ LA Homeowners Chose MY Home Builders (1).jpg"
+  },
+  {
+    "file": "Process.astro",
+    "target": "<img alt=\"\" class=\"css-trglf0 css-1tlhgb\" loading=\"lazy\" sizes=\"auto,306.4701409381364px\" src=\"/index Adu_files/8fc2e45a827f35093be9bdfb939c1ae2c3eb10a2.png\" srcset=\"/_assets/v11/8fc2e45a827f35093be9bdfb939c1ae2c3eb10a2.png 1536w, /_assets/v11/8fc2e45a827f35093be9bdfb939c1ae2c3eb10a2.png?w=1938 1938w\"/>",
+    "replace_with": "/images/Why 115+ LA Homeowners Chose MY Home Builders (2).jpg"
+  },
+  {
+    "file": "Process.astro",
+    "target": "<img alt=\"\" class=\"css-trglf0 css-1tlhgb\" loading=\"lazy\" sizes=\"auto,306.4701409381364px\" src=\"/index Adu_files/8fc2e45a827f35093be9bdfb939c1ae2c3eb10a2.png\" srcset=\"/_assets/v11/8fc2e45a827f35093be9bdfb939c1ae2c3eb10a2.png 1536w, /_assets/v11/8fc2e45a827f35093be9bdfb939c1ae2c3eb10a2.png?w=1938 1938w\"/>",
+    "replace_with": "/images/Why 115+ LA Homeowners Chose MY Home Builders (3).jpg"
+  },
+  {
+    "file": "Process.astro",
+    "target": "<img alt=\"\" class=\"css-trglf0 css-1tlhgb\" loading=\"lazy\" sizes=\"auto,306.4701409381364px\" src=\"/index Adu_files/8fc2e45a827f35093be9bdfb939c1ae2c3eb10a2.png\" srcset=\"/_assets/v11/8fc2e45a827f35093be9bdfb939c1ae2c3eb10a2.png 1536w, /_assets/v11/8fc2e45a827f35093be9bdfb939c1ae2c3eb10a2.png?w=1938 1938w\"/>",
+    "replace_with": "/images/Why 115+ LA Homeowners Chose MY Home Builders (4).jpg"
+  }
+]

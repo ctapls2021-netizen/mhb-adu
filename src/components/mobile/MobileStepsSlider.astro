@@ -1,0 +1,215 @@
+---
+const steps = [
+  {
+    number: "1",
+    title: "Free Consultation & Eligibility Check",
+    description: "We confirm your property qualifies for an ADU and discuss your vision at zero cost to you."
+  },
+  {
+    number: "2",
+    title: "Review Price Proposal",
+    description: "See your ADU before signing anything. You receive a written scope of work with a fixed price no hidden change orders."
+  },
+  {
+    number: "3",
+    title: "We Handle All Permits & City Approvals",
+    description: "Our team manages the entire LA permitting process. You don't set foot in City Hall."
+  },
+  {
+    number: "4",
+    title: "Construction with a Dedicated Project Manager",
+    description: "One point of contact. Regular updates. No surprises."
+  },
+  {
+    number: "5",
+    title: "Move In, or Start Renting",
+    description: "Your new space is ready. Start generating income or welcoming family on day one."
+  }
+];
+---
+<div id="mobile-steps-section" style="width: 480px; background-color: #ffffff; padding: 40px 0; box-sizing: border-box; display: flex; flex-direction: column; align-items: center;">
+  
+  <!-- Section Title -->
+  <div style="width: 450px; padding: 0 15px; box-sizing: border-box; margin-bottom: 30px; text-align: center;">
+    <h2 style="font-family: 'Playfair Display', serif; font-size: 30px; font-weight: 700; line-height: 1.2em; margin: 0;">
+      <span style="color: #111111;">From First Call to Move-In:</span><br>
+      <span style="color: #0071c8;">Your 5-Step ADU Journey.</span>
+    </h2>
+  </div>
+
+  <!-- Horizontal Timeline Navigation -->
+  <div style="width: 420px; height: 65px; position: relative; display: flex; align-items: flex-start; justify-content: space-between; box-sizing: border-box; padding: 0; margin-bottom: 25px;">
+    <!-- Horizontal Gray Track (Background) -->
+    <div style="position: absolute; top: 12px; left: 12px; right: 12px; height: 3px; background-color: #e3e3e3; z-index: 1;">
+      <!-- Active Progress Line -->
+      <div id="step-active-line" style="position: absolute; top: 0; left: 0; width: 0%; height: 100%; background-color: #007BC3; transition: width 0.4s ease; z-index: 2;"></div>
+    </div>
+
+    {steps.map((step, index) => (
+      <div 
+        class="step-timeline-node" 
+        data-index={index} 
+        style="position: relative; z-index: 3; display: flex; flex-direction: column; align-items: center; cursor: pointer; width: 24px;"
+      >
+        <!-- Outer concentric Ring + Dot -->
+        <div 
+          class="step-node-ring"
+          style="width: 24px; height: 24px; border-radius: 50%; background-color: #ffffff; display: flex; align-items: center; justify-content: center; transition: all 0.3s;"
+        >
+          <div class="step-node-dot" style="width: 10px; height: 10px; border-radius: 50%; transition: all 0.3s;"></div>
+        </div>
+        
+        <!-- Label below node -->
+        <span 
+          class="step-node-label"
+          style="margin-top: 6px; font-family: Inter, sans-serif; font-size: 11px; font-weight: 700; transition: color 0.3s; white-space: nowrap;"
+        >
+          Step {step.number}
+        </span>
+      </div>
+    ))}
+  </div>
+
+  <!-- Cards Viewport -->
+  <div class="step-viewport" style="width: 420px; overflow: hidden; position: relative;">
+    
+    <!-- Track -->
+    <div class="step-track" id="step-track" style="display: flex; width: max-content; transition: transform 0.4s ease-in-out;">
+      {steps.map((step) => (
+        <div class="step-slide" style="width: 420px; flex-shrink: 0; box-sizing: border-box; background-color: #f7f9fa; border: 1px solid #e3e3e3; border-radius: 0px; padding: 30px 24px; display: flex; flex-direction: column; gap: 10px;">
+          <span style="font-family: 'Playfair Display', serif; font-size: 18px; font-weight: 700; color: #7E7E7E;">
+            Step {step.number}
+          </span>
+          <h3 style="font-family: 'Playfair Display', serif; font-size: 22px; font-weight: 700; color: #0071c8; margin: 0; line-height: 1.25em;">
+            {step.title}
+          </h3>
+          <p style="font-family: Inter, sans-serif; font-size: 16px; font-weight: 400; line-height: 1.35em; color: #7E7E7E; margin: 0;">
+            {step.description}
+          </p>
+        </div>
+      ))}
+    </div>
+
+  </div>
+
+  <!-- Arrow Navigation Buttons -->
+  <div style="display: flex; gap: 20px; margin-top: 25px; justify-content: center; align-items: center;">
+    <button 
+      id="step-prev-btn" 
+      style="width: 44px; height: 44px; background-color: #ffffff; border: 1px solid #e3e3e3; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: all 0.3s; border-radius: 0px;"
+    >
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M15 19L8 12L15 5" stroke="#7E7E7E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </button>
+    <button 
+      id="step-next-btn" 
+      style="width: 44px; height: 44px; background-color: #ffffff; border: 1px solid #e3e3e3; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: all 0.3s; border-radius: 0px;"
+    >
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M9 5L16 12L9 19" stroke="#7E7E7E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </button>
+  </div>
+
+</div>
+
+<script is:inline>
+  (function() {
+    var track = document.getElementById('step-track');
+    var nodes = document.querySelectorAll('.step-timeline-node');
+    var progressLine = document.getElementById('step-active-line');
+    var prevBtn = document.getElementById('step-prev-btn');
+    var nextBtn = document.getElementById('step-next-btn');
+
+    if (!track || nodes.length === 0 || !progressLine) return;
+
+    var currentIndex = 0;
+    var slideWidth = 420;
+    var totalSlides = nodes.length;
+
+    function updateSlider(index) {
+      currentIndex = index;
+      
+      // Slide movement
+      track.style.transform = 'translateX(' + (-currentIndex * slideWidth) + 'px)';
+      
+      // Update active progress line width (percentage between nodes)
+      // Node 0 -> 0%, Node 4 -> 100%
+      var percent = (currentIndex / (totalSlides - 1)) * 100;
+      progressLine.style.width = percent + '%';
+      
+      // Update nodes styling
+      nodes.forEach(function(node, idx) {
+        var ring = node.querySelector('.step-node-ring');
+        var dot = node.querySelector('.step-node-dot');
+        var label = node.querySelector('.step-node-label');
+        
+        if (idx === currentIndex) {
+          ring.style.border = '2px solid #007BC3';
+          dot.style.backgroundColor = '#007BC3';
+          label.style.color = '#007BC3';
+        } else if (idx < currentIndex) {
+          // Completed steps
+          ring.style.border = '2px solid #007BC3';
+          dot.style.backgroundColor = '#007BC3';
+          label.style.color = '#7E7E7E';
+        } else {
+          // Future steps
+          ring.style.border = '2px solid #cccccc';
+          dot.style.backgroundColor = '#cccccc';
+          label.style.color = '#7E7E7E';
+        }
+      });
+
+      // Update button visual states
+      if (prevBtn) {
+        if (currentIndex === 0) {
+          prevBtn.style.opacity = '0.5';
+          prevBtn.style.cursor = 'not-allowed';
+        } else {
+          prevBtn.style.opacity = '1';
+          prevBtn.style.cursor = 'pointer';
+        }
+      }
+
+      if (nextBtn) {
+        if (currentIndex === totalSlides - 1) {
+          nextBtn.style.opacity = '0.5';
+          nextBtn.style.cursor = 'not-allowed';
+        } else {
+          nextBtn.style.opacity = '1';
+          nextBtn.style.cursor = 'pointer';
+        }
+      }
+    }
+
+    // Set initial active state
+    updateSlider(0);
+
+    // Node click events
+    nodes.forEach(function(node) {
+      node.addEventListener('click', function() {
+        var index = parseInt(node.getAttribute('data-index'), 10);
+        updateSlider(index);
+      });
+    });
+
+    // Arrow button click events
+    if (prevBtn) {
+      prevBtn.addEventListener('click', function() {
+        if (currentIndex > 0) {
+          updateSlider(currentIndex - 1);
+        }
+      });
+    }
+
+    if (nextBtn) {
+      nextBtn.addEventListener('click', function() {
+        if (currentIndex < totalSlides - 1) {
+          updateSlider(currentIndex + 1);
+        }
+      });
+    }
+  })();
+</script>

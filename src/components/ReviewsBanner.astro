@@ -1,0 +1,83 @@
+---
+---
+<section class="reviews-banner">
+  <div class="review-item">
+    <div class="logo-container">
+      <img src="./images/google.svg" alt="Google Reviews" class="review-logo" />
+    </div>
+    <span class="review-number">5.0</span>
+  </div>
+  <div class="review-item">
+    <div class="logo-container">
+      <img src="./images/YELP SVG 1.svg" alt="Yelp" class="review-logo" />
+    </div>
+    <span class="review-number">5.0</span>
+  </div>
+  <div class="review-item">
+    <div class="logo-container">
+      <img src="./images/houzz.svg" alt="Houzz" class="review-logo" />
+    </div>
+    <span class="review-number">4.9</span>
+  </div>
+  <div class="review-item">
+    <div class="logo-container">
+      <img src="./images/facebook.svg" alt="Facebook" class="review-logo" />
+    </div>
+    <span class="review-number">4.9</span>
+  </div>
+  <div class="review-item">
+    <div class="logo-container">
+      <img src="./images/buildzoom.svg" alt="Buildzoom" class="review-logo" />
+    </div>
+    <span class="review-number">5.0</span>
+  </div>
+</section>
+
+<style>
+  .reviews-banner {
+    background-color: #007BC3;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 30px 20px 45px 20px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 10379px;
+    z-index: 50;
+  }
+  .review-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+  .logo-container {
+    height: 60px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .review-logo {
+    max-height: 100%;
+    max-width: 180px;
+    object-fit: contain;
+  }
+  .review-number {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23.276px; /* 46.551% */
+  }
+
+  @media (max-width: 1023px) {
+    .reviews-banner {
+      display: none !important;
+    }
+  }
+</style>

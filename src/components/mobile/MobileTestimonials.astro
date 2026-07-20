@@ -1,0 +1,119 @@
+---
+const testimonials = [
+  {
+    author: "Ray J., Los Angeles, CA",
+    source: "Google Review",
+    quote: "\"After talking to a few contractors, My Home Builders stood out right away because they were straightforward and didn't overpromise. The remodel stayed on schedule and there were no surprise costs.\""
+  },
+  {
+    author: "Melisa W., Los Angeles, CA",
+    source: "Google Review",
+    quote: "\"After talking to a few contractors, My Home Builders stood out right away because they were straightforward and didn't overpromise. The remodel stayed on schedule and there were no surprise costs.\""
+  },
+  {
+    author: "Jhon C., Pasadena, CA",
+    source: "Google Review",
+    quote: "\"After talking to a few contractors, My Home Builders stood out right away because they were straightforward and didn't overpromise. The remodel stayed on schedule and there were no surprise costs.\""
+  }
+];
+---
+<div id="mobile-testimonials-section" style="width: 480px; background-color: #ffffff; padding: 40px 0; box-sizing: border-box; display: flex; flex-direction: column; align-items: center;">
+  
+  <!-- Illustration on top -->
+  <img 
+    alt="Google Reviews" 
+    src="images/Just Take Our Word For It..png" 
+    style="width: 150px; height: auto; object-fit: contain; margin-bottom: 20px; border-radius: 0px;" 
+  />
+
+  <!-- Title and Subtitle -->
+  <div style="width: 450px; padding: 0 15px; box-sizing: border-box; margin-bottom: 30px; text-align: center;">
+    <h2 style="font-family: 'Playfair Display', serif; font-size: 30px; font-weight: 700; line-height: 1.2em; color: #111111; margin: 0 0 12px 0;">
+      Don't Just Take<br>Our Word For It.
+    </h2>
+    <p style="font-family: Inter, sans-serif; font-size: 18px; font-weight: 400; line-height: 1.35em; color: #7E7E7E; margin: 0;">
+      ⭐️⭐️⭐️⭐️⭐️ Rated 4.9/5 by 115+ Los Angeles Homeowners on Google
+    </p>
+  </div>
+
+  <!-- Testimonials Cards Slider -->
+  <div class="testi-viewport" style="width: 420px; overflow: hidden; position: relative;">
+    
+    <!-- Track -->
+    <div class="testi-track" id="testi-track" style="display: flex; width: max-content; transition: transform 0.4s ease-in-out;">
+      {testimonials.map((t) => (
+        <div class="testi-slide" style="width: 420px; flex-shrink: 0; box-sizing: border-box; background-color: #f5f9fa; border: 1px solid #e3e3e3; border-radius: 0px; padding: 35px 25px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; gap: 15px;">
+          <!-- 5 Gold Stars -->
+          <div style="color: #ffb800; font-size: 24px; line-height: 1em; letter-spacing: 0.15em;">
+            ★★★★★
+          </div>
+          
+          <!-- Quote -->
+          <p style="font-family: Inter, sans-serif; font-size: 16px; font-weight: 500; line-height: 1.45em; color: #111111; margin: 0; font-style: normal;">
+            {t.quote}
+          </p>
+          
+          <!-- Author -->
+          <div style="margin-top: 5px; display: flex; flex-direction: column; align-items: center; gap: 4px;">
+            <span style="font-family: Inter, sans-serif; font-size: 14px; font-weight: 700; color: #111111; text-transform: uppercase; letter-spacing: 0.05em;">
+              — {t.author}
+            </span>
+            <span style="font-family: Inter, sans-serif; font-size: 12px; font-weight: 600; color: #7E7E7E; text-transform: uppercase; letter-spacing: 0.05em;">
+              — {t.source}
+            </span>
+          </div>
+        </div>
+      ))}
+    </div>
+
+  </div>
+
+  <!-- Slider Dots Navigation -->
+  <div style="display: flex; gap: 8px; margin-top: 20px; justify-content: center;">
+    {testimonials.map((_, index) => (
+      <div 
+        class="testi-dot" 
+        data-index={index} 
+        style="width: 10px; height: 10px; border-radius: 50%; background-color: #cccccc; cursor: pointer; transition: background-color 0.3s;"
+      />
+    ))}
+  </div>
+
+</div>
+
+<script is:inline>
+  (function() {
+    var track = document.getElementById('testi-track');
+    var dots = document.querySelectorAll('.testi-dot');
+    if (!track || dots.length === 0) return;
+
+    var currentIndex = 0;
+    var slideWidth = 420;
+    var totalSlides = dots.length;
+
+    function updateSlider(index) {
+      currentIndex = index;
+      track.style.transform = 'translateX(' + (-currentIndex * slideWidth) + 'px)';
+      
+      // Update dots style
+      dots.forEach(function(dot, idx) {
+        if (idx === currentIndex) {
+          dot.style.backgroundColor = '#0071c8';
+        } else {
+          dot.style.backgroundColor = '#cccccc';
+        }
+      });
+    }
+
+    // Set first dot as active initially
+    updateSlider(0);
+
+    // Click handlers for dots
+    dots.forEach(function(dot) {
+      dot.addEventListener('click', function() {
+        var index = parseInt(dot.getAttribute('data-index'), 10);
+        updateSlider(index);
+      });
+    });
+  })();
+</script>

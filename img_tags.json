@@ -1,0 +1,992 @@
+[
+  {
+    "file": "ADUTypes.astro",
+    "src": "/images/Detached ADU.png",
+    "full": "<img alt=\"\" class=\"css-ez8men css-trglf0 css-scd4s8\" loading=\"lazy\" sizes=\"auto,829px\" src=\"/images/Detached ADU.png\" />",
+    "context": "---\n// ADUTypes Component\n---\n\n   \n   <p cla"
+  },
+  {
+    "file": "ADUTypes.astro",
+    "src": "/images/Two-Story ADU.png",
+    "full": "<img alt=\"\" class=\"css-trglf0 css-qw3zwa\" loading=\"lazy\" sizes=\"auto,1068.6349170692197px\" src=\"/images/Two-Story ADU.png\" />",
+    "context": "ss-3yrm6v\">Best for:         <div class=\"css-r"
+  },
+  {
+    "file": "ADUTypes.astro",
+    "src": "/index Adu_files/7c110fe76c38e1bc5d8672c2900f33c368eac93f.png",
+    "full": "<img alt=\"\" class=\"css-trglf0 css-z3as1s\" loading=\"lazy\" sizes=\"auto,1068.6349170692197px\" src=\"/index Adu_files/7c110fe76c38e1bc5d8672c2900f33c368eac93f.png\" srcset=\"/_assets/v11/7c110fe76c38e1bc5d8672c2900f33c368eac93f.png 3072w, /_assets/v11/7c110fe76c38e1bc5d8672c2900f33c368eac93f.png?w=4624 4624w, /_assets/v11/7c110fe76c38e1bc5d8672c2900f33c368eac93f.png?w=6165 6165w, /_assets/v11/7c110fe76c38e1bc5d8672c2900f33c368eac93f.png?w=7707 7707w, /_assets/v11/7c110fe76c38e1bc5d8672c2900f33c368eac93f.png?w=9248 9248w\"/>",
+    "context": "ss-3yrm6v\">Best for:         <div class=\"css-j"
+  },
+  {
+    "file": "ADUTypes.astro",
+    "src": "/images/Above-Garage ADU.png",
+    "full": "<img alt=\"\" class=\"css-trglf0 css-9edryz\" loading=\"lazy\" sizes=\"auto,263.64134825245566px\" src=\"/images/Above-Garage ADU.png\" />",
+    "context": "3hpzso\">Detached ADU         <div class=\"css-o"
+  },
+  {
+    "file": "ADUTypes.astro",
+    "src": "/index Adu_files/33b1e841b8892abbec41e0e129c52fe6a745adea.png",
+    "full": "<img alt=\"\" class=\"css-trglf0 css-y9pif0\" loading=\"lazy\" sizes=\"auto,302.61081812119073px\" src=\"/index Adu_files/33b1e841b8892abbec41e0e129c52fe6a745adea.png\" srcset=\"/_assets/v11/33b1e841b8892abbec41e0e129c52fe6a745adea.png 793w, /_assets/v11/33b1e841b8892abbec41e0e129c52fe6a745adea.png?w=437 437w\"/>",
+    "context": "ss-3yrm6v\">Best for:         <div class=\"css-e"
+  },
+  {
+    "file": "ADUTypes.astro",
+    "src": "/index Adu_files/7c110fe76c38e1bc5d8672c2900f33c368eac93f.png",
+    "full": "<img alt=\"\" class=\"css-trglf0 css-baon7m\" loading=\"lazy\" sizes=\"auto,1087.4998799459734px\" src=\"/index Adu_files/7c110fe76c38e1bc5d8672c2900f33c368eac93f.png\" srcset=\"/_assets/v11/7c110fe76c38e1bc5d8672c2900f33c368eac93f.png 3072w, /_assets/v11/7c110fe76c38e1bc5d8672c2900f33c368eac93f.png?w=4706 4706w, /_assets/v11/7c110fe76c38e1bc5d8672c2900f33c368eac93f.png?w=6274 6274w, /_assets/v11/7c110fe76c38e1bc5d8672c2900f33c368eac93f.png?w=7843 7843w, /_assets/v11/7c110fe76c38e1bc5d8672c2900f33c368eac93f.png?w=9411 9411w\"/>",
+    "context": "o\">Garage Conversion         <div class=\"css-c"
+  },
+  {
+    "file": "ADUTypes.astro",
+    "src": "/index Adu_files/7c110fe76c38e1bc5d8672c2900f33c368eac93f.png",
+    "full": "<img alt=\"\" class=\"css-trglf0 css-j8fkso\" loading=\"lazy\" sizes=\"auto,1068.6349170692197px\" src=\"/index Adu_files/7c110fe76c38e1bc5d8672c2900f33c368eac93f.png\" srcset=\"/_assets/v11/7c110fe76c38e1bc5d8672c2900f33c368eac93f.png 3072w, /_assets/v11/7c110fe76c38e1bc5d8672c2900f33c368eac93f.png?w=4624 4624w, /_assets/v11/7c110fe76c38e1bc5d8672c2900f33c368eac93f.png?w=6165 6165w, /_assets/v11/7c110fe76c38e1bc5d8672c2900f33c368eac93f.png?w=7707 7707w, /_assets/v11/7c110fe76c38e1bc5d8672c2900f33c368eac93f.png?w=9248 9248w\"/>",
+    "context": "56v css-3hpzso\">JADU         <div class=\"css-4"
+  },
+  {
+    "file": "ADUTypes.astro",
+    "src": "/index Adu_files/e01bf69bfab66a27151424ea3e2dfc2db41c7108.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/e01bf69bfab66a27151424ea3e2dfc2db41c7108.svg\"/>",
+    "context": "ss-mg3gna\">"
+  },
+  {
+    "file": "ADUTypes.astro",
+    "src": "/index Adu_files/e01bf69bfab66a27151424ea3e2dfc2db41c7108.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/e01bf69bfab66a27151424ea3e2dfc2db41c7108.svg\"/>",
+    "context": "ss-mg3gna\">"
+  },
+  {
+    "file": "ADUTypes.astro",
+    "src": "/index Adu_files/e01bf69bfab66a27151424ea3e2dfc2db41c7108.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/e01bf69bfab66a27151424ea3e2dfc2db41c7108.svg\"/>",
+    "context": "ss-mg3gna\">"
+  },
+  {
+    "file": "ADUTypes.astro",
+    "src": "/index Adu_files/e01bf69bfab66a27151424ea3e2dfc2db41c7108.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/e01bf69bfab66a27151424ea3e2dfc2db41c7108.svg\"/>",
+    "context": "ss-mg3gna\">"
+  },
+  {
+    "file": "ADUTypes.astro",
+    "src": "/index Adu_files/e01bf69bfab66a27151424ea3e2dfc2db41c7108.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/e01bf69bfab66a27151424ea3e2dfc2db41c7108.svg\"/>",
+    "context": "ss-mg3gna\">"
+  },
+  {
+    "file": "ADUTypes.astro",
+    "src": "/index Adu_files/e01bf69bfab66a27151424ea3e2dfc2db41c7108.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/e01bf69bfab66a27151424ea3e2dfc2db41c7108.svg\"/>",
+    "context": "ss-mg3gna\">"
+  },
+  {
+    "file": "HeaderAndHero.astro",
+    "src": "/index Adu_files/2fb779fabc00a002a183c69724fe58cc4df65a88.png",
+    "full": "<img alt=\"\" class=\"css-ez8men css-trglf0 css-qhd53h\" sizes=\"1920px\" src=\"/index Adu_files/2fb779fabc00a002a183c69724fe58cc4df65a88.png\" srcset=\"/_assets/v11/2fb779fabc00a002a183c69724fe58cc4df65a88.png 1695w\"/>",
+    "context": "ss-thvz0a\">       <div class=\"css-shlrkj css-roiesn cs"
+  },
+  {
+    "file": "HeaderAndHero.astro",
+    "src": "/index Adu_files/e04368603918d41eccc032f0c3f3c66909f3328f.svg",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" src=\"/index Adu_files/e04368603918d41eccc032f0c3f3c66909f3328f.svg\"/>",
+    "context": "ght: 13;\">      \n <img alt=\"\" class=\"css-tzn"
+  },
+  {
+    "file": "HeaderAndHero.astro",
+    "src": "/index Adu_files/2dee42b1e41057961fd2b6e67ec2836b36291368.svg",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/index Adu_files/2dee42b1e41057961fd2b6e67ec2836b36291368.svg\"/>",
+    "context": "2f0c3f3c66909f3328f.svg\"/>   \n   \n <p class=\"css-8jchzs cs"
+  },
+  {
+    "file": "HeaderAndHero.astro",
+    "src": "/index Adu_files/307bdb784d1a076084cff4cac804a8447537c06b.svg",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/index Adu_files/307bdb784d1a076084cff4cac804a8447537c06b.svg\"/>",
+    "context": "ss=\"css-q8xc2o css-roiesn css-qzkf75\"> \n   \n <img alt=\"\" class=\"css-tzn6qh css-ez8m"
+  },
+  {
+    "file": "HeaderAndHero.astro",
+    "src": "/index Adu_files/e61c0a669c48b0821121ed169e559cac584879ac.svg",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/index Adu_files/e61c0a669c48b0821121ed169e559cac584879ac.svg\"/>",
+    "context": "d1a076084cff4cac804a8447537c06b.svg\"/> \n   \n  <"
+  },
+  {
+    "file": "HeaderAndHero.astro",
+    "src": "/index Adu_files/cb749c89e6d4f82b6ab44ee074b2786d6d792e6c.svg",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/index Adu_files/cb749c89e6d4f82b6ab44ee074b2786d6d792e6c.svg\"/>",
+    "context": "div class=\"css-ayg824 css-9oodz1 css-fo63ta\">     \n <p class=\"c"
+  },
+  {
+    "file": "HeaderAndHero.astro",
+    "src": "/index Adu_files/e19dd23152d4dbc3a2dcd35df7b94f516a48a678.png",
+    "full": "<img alt=\"\" class=\"css-trglf0 css-uqjlij\" loading=\"lazy\" sizes=\"auto,236.41509792895113px\" src=\"/index Adu_files/e19dd23152d4dbc3a2dcd35df7b94f516a48a678.png\" srcset=\"/_assets/v11/e19dd23152d4dbc3a2dcd35df7b94f516a48a678.png 1774w, /_assets/v11/e19dd23152d4dbc3a2dcd35df7b94f516a48a678.png?w=865 865w, /_assets/v11/e19dd23152d4dbc3a2dcd35df7b94f516a48a678.png?w=1730 1730w\"/>",
+    "context": "zr56v css-1s6d6l\">\u200b  \n     \n  <img alt=\"\" class"
+  },
+  {
+    "file": "HeaderAndHero.astro",
+    "src": "/index Adu_files/e19dd23152d4dbc3a2dcd35df7b94f516a48a678.png",
+    "full": "<img alt=\"\" class=\"css-trglf0 css-oqbhj4\" loading=\"lazy\" sizes=\"auto,278.902160009917px\" src=\"/index Adu_files/e19dd23152d4dbc3a2dcd35df7b94f516a48a678.png\" srcset=\"/_assets/v11/e19dd23152d4dbc3a2dcd35df7b94f516a48a678.png 1774w, /_assets/v11/e19dd23152d4dbc3a2dcd35df7b94f516a48a678.png?w=2040 2040w\"/>",
+    "context": "g?w=1730 1730w\"/>  \n     \n  <img alt=\"\" class"
+  },
+  {
+    "file": "HeaderAndHero.astro",
+    "src": "/index Adu_files/e19dd23152d4dbc3a2dcd35df7b94f516a48a678.png",
+    "full": "<img alt=\"\" class=\"css-trglf0 css-ba05sm\" loading=\"lazy\" sizes=\"auto,278.902160009917px\" src=\"/index Adu_files/e19dd23152d4dbc3a2dcd35df7b94f516a48a678.png\" srcset=\"/_assets/v11/e19dd23152d4dbc3a2dcd35df7b94f516a48a678.png 1774w, /_assets/v11/e19dd23152d4dbc3a2dcd35df7b94f516a48a678.png?w=2040 2040w\"/>",
+    "context": "g?w=2040 2040w\"/>  \n     \n <div class=\"css-ounpde css-grtgjx\" style=\"--transfor"
+  },
+  {
+    "file": "HeaderAndHero.astro",
+    "src": "/index Adu_files/8235dd224a428b19aab8a0f6da14858355178184.svg",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/index Adu_files/8235dd224a428b19aab8a0f6da14858355178184.svg\"/>",
+    "context": "ght: 19;\">      <div class=\"css-obvxip css-grtgjx\" style=\"--transform-inner-width: 10.828125; --tr"
+  },
+  {
+    "file": "HeaderAndHero.astro",
+    "src": "/index Adu_files/7dd7ac19ba73712724d778b8f5ae3e1612d066e2.svg",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/index Adu_files/7dd7ac19ba73712724d778b8f5ae3e1612d066e2.svg\"/>",
+    "context": "6.1875;\">      <div class=\"css-6x0ebi css-grtgjx\" style=\"--transform-inner-width: 1.109375; --tra"
+  },
+  {
+    "file": "HeaderAndHero.astro",
+    "src": "/index Adu_files/5c71c215b5217e083776dee1d7abe3a7b9396286.svg",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/index Adu_files/5c71c215b5217e083776dee1d7abe3a7b9396286.svg\"/>",
+    "context": "ht: 9.5;\">       \n <div class=\"css-pv5nd3 css-roiesn css-5k"
+  },
+  {
+    "file": "HeaderAndHero.astro",
+    "src": "/index Adu_files/dad6852b200340a8f7ba3748531c0bc6debe3564.png",
+    "full": "<img alt=\"\" class=\"css-ez8men css-trglf0 css-scd4s8\" sizes=\"197.490234375px\" src=\"/index Adu_files/dad6852b200340a8f7ba3748531c0bc6debe3564.png\" srcset=\"/_assets/v11/dad6852b200340a8f7ba3748531c0bc6debe3564.png 864w, /_assets/v11/dad6852b200340a8f7ba3748531c0bc6debe3564.png?w=256 256w, /_assets/v11/dad6852b200340a8f7ba3748531c0bc6debe3564.png?w=512 512w\"/>",
+    "context": "\">      <span class=\"css-ojg9h7 cs"
+  },
+  {
+    "file": "HeaderAndHero.astro",
+    "src": "/index Adu_files/48b81d006c112ecc8549021b8fef8d4b2c69e4e7.svg",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" src=\"/index Adu_files/48b81d006c112ecc8549021b8fef8d4b2c69e4e7.svg\"/>",
+    "context": "ing Available  |  \ud83d\udcde (818) 914-4900      <p class=\"css-8jchzs css"
+  },
+  {
+    "file": "Process.astro",
+    "src": "/index Adu_files/9b939839ff80178263170408151d8b52c5447381.png",
+    "full": "<img alt=\"\" class=\"css-trglf0 css-pncdkq\" loading=\"lazy\" sizes=\"auto,1922px\" src=\"/index Adu_files/9b939839ff80178263170408151d8b52c5447381.png\" srcset=\"/_assets/v11/9b939839ff80178263170408151d8b52c5447381.png 3072w, /_assets/v11/9b939839ff80178263170408151d8b52c5447381.png?w=2048 2048w, /_assets/v11/9b939839ff80178263170408151d8b52c5447381.png?w=2560 2560w, /_assets/v11/9b939839ff80178263170408151d8b52c5447381.png?w=3072 3072w\"/>",
+    "context": "---\n// Process Component\n---\n\n     \n  \n<div class=\"css-joxb8g css-roiesn"
+  },
+  {
+    "file": "Process.astro",
+    "src": "/index Adu_files/e4eb230760c92670c7fdd08a7ac063bd8efa0da5.svg",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/index Adu_files/e4eb230760c92670c7fdd08a7ac063bd8efa0da5.svg\"/>",
+    "context": "33.1875;\">      <div class=\"css-8sdyyf css-grtgjx\" style=\"--transform-inner-width: 18.9375; --tran"
+  },
+  {
+    "file": "Process.astro",
+    "src": "/images/Permit Experts.png",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/images/Permit Experts.png\"/>",
+    "context": "10.8125;\">      <div class=\"css-uhwac2 css-grtgjx\" style=\"--transform-inner-width: 1.9375; --trans"
+  },
+  {
+    "file": "Process.astro",
+    "src": "/images/Free 3D Design Rendering.png",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/images/Free 3D Design Rendering.png\"/>",
+    "context": ".578125;\">        \n<div class=\"css-vnck5x css-roiesn css-6p4mh2 css-6fjkjm textContents\""
+  },
+  {
+    "file": "Process.astro",
+    "src": "/images/25+ Years of Local Experience.png",
+    "full": "<img alt=\"\" class=\"css-ez8men css-trglf0 css-scd4s8\" loading=\"lazy\" sizes=\"auto,480px\" src=\"/images/25+ Years of Local Experience.png\" />",
+    "context": "tep ADU Journey.  \u200b  \n   \n <img alt=\"\" class=\"css-ez8men css-trglf0 css-scd4s8\" loadi"
+  },
+  {
+    "file": "Process.astro",
+    "src": "/images/Everything Under One Roof.png",
+    "full": "<img alt=\"\" class=\"css-ez8men css-trglf0 css-scd4s8\" loading=\"lazy\" sizes=\"auto,479px\" src=\"/images/Everything Under One Roof.png\" />",
+    "context": ",480px\" src=\"/images/25+ Years of Local Experience.png\" /> \n   \n <img alt=\"\" class=\"css-ez8men css-trglf0 css-scd4s8\" loadi"
+  },
+  {
+    "file": "Process.astro",
+    "src": "/index Adu_files/f01095a3a26e2ca352ac40ea5a1d5f44cce4aaf9.png",
+    "full": "<img alt=\"\" class=\"css-ez8men css-trglf0 css-scd4s8\" loading=\"lazy\" sizes=\"auto,480px\" src=\"/index Adu_files/f01095a3a26e2ca352ac40ea5a1d5f44cce4aaf9.png\" srcset=\"/_assets/v11/f01095a3a26e2ca352ac40ea5a1d5f44cce4aaf9.png 3000w, /_assets/v11/f01095a3a26e2ca352ac40ea5a1d5f44cce4aaf9.png?h=512 384w, /_assets/v11/f01095a3a26e2ca352ac40ea5a1d5f44cce4aaf9.png?h=1024 768w\"/>",
+    "context": "auto,479px\" src=\"/images/Everything Under One Roof.png\" /> \n   \n <img alt=\"\" class=\"css-ez8men css-trglf0 css-scd4s8\" loadi"
+  },
+  {
+    "file": "Process.astro",
+    "src": "/index Adu_files/2162cd77ea296ccbf8c86db05f96cc21197ec27c.png",
+    "full": "<img alt=\"\" class=\"css-ez8men css-trglf0 css-scd4s8\" loading=\"lazy\" sizes=\"auto,480px\" src=\"/index Adu_files/2162cd77ea296ccbf8c86db05f96cc21197ec27c.png\" srcset=\"/_assets/v11/2162cd77ea296ccbf8c86db05f96cc21197ec27c.png 2560w, /_assets/v11/2162cd77ea296ccbf8c86db05f96cc21197ec27c.png?w=512 512w, /_assets/v11/2162cd77ea296ccbf8c86db05f96cc21197ec27c.png?w=1024 1024w\"/>",
+    "context": "01095a3a26e2ca352ac40ea5a1d5f44cce4aaf9.png?h=1024 768w\"/> \n   \n <img alt=\"\" class=\"css-ez8men css-trglf0 css-scd4s8\" loadi"
+  },
+  {
+    "file": "Process.astro",
+    "src": "/index Adu_files/3b15f2c6eaae78c283d06ff561b47392f0abe2f1.png",
+    "full": "<img alt=\"\" class=\"css-ez8men css-trglf0 css-scd4s8\" loading=\"lazy\" sizes=\"auto,479px\" src=\"/index Adu_files/3b15f2c6eaae78c283d06ff561b47392f0abe2f1.png\" srcset=\"/_assets/v11/3b15f2c6eaae78c283d06ff561b47392f0abe2f1.png 4096w, /_assets/v11/3b15f2c6eaae78c283d06ff561b47392f0abe2f1.png?w=512 512w, /_assets/v11/3b15f2c6eaae78c283d06ff561b47392f0abe2f1.png?w=1024 1024w\"/>",
+    "context": "62cd77ea296ccbf8c86db05f96cc21197ec27c.png?w=1024 1024w\"/> \n   \n <img alt=\"\" class=\"css-ez8men css-trglf0 css-scd4s8\" loadi"
+  },
+  {
+    "file": "Process.astro",
+    "src": "/index Adu_files/00e4534258f32ed0560a5e11eaf4ac6aa637ade2.png",
+    "full": "<img alt=\"\" class=\"css-ez8men css-trglf0 css-scd4s8\" loading=\"lazy\" sizes=\"auto,480px\" src=\"/index Adu_files/00e4534258f32ed0560a5e11eaf4ac6aa637ade2.png\" srcset=\"/_assets/v11/00e4534258f32ed0560a5e11eaf4ac6aa637ade2.png 4096w, /_assets/v11/00e4534258f32ed0560a5e11eaf4ac6aa637ade2.png?w=512 512w, /_assets/v11/00e4534258f32ed0560a5e11eaf4ac6aa637ade2.png?w=1024 1024w\"/>",
+    "context": "15f2c6eaae78c283d06ff561b47392f0abe2f1.png?w=1024 1024w\"/> \n   \n  \n<div class=\"css-5ucyoc css-roiesn css-7k"
+  },
+  {
+    "file": "Process.astro",
+    "src": "/index Adu_files/8fc2e45a827f35093be9bdfb939c1ae2c3eb10a2.png",
+    "full": "<img alt=\"\" class=\"css-trglf0 css-1tlhgb\" loading=\"lazy\" sizes=\"auto,306.4701409381364px\" src=\"/index Adu_files/8fc2e45a827f35093be9bdfb939c1ae2c3eb10a2.png\" srcset=\"/_assets/v11/8fc2e45a827f35093be9bdfb939c1ae2c3eb10a2.png 1536w, /_assets/v11/8fc2e45a827f35093be9bdfb939c1ae2c3eb10a2.png?w=1938 1938w\"/>",
+    "context": "ery detail matters.  \n     \n  <img alt=\"\" class"
+  },
+  {
+    "file": "Process.astro",
+    "src": "/index Adu_files/8fc2e45a827f35093be9bdfb939c1ae2c3eb10a2.png",
+    "full": "<img alt=\"\" class=\"css-trglf0 css-f0o2nb\" loading=\"lazy\" sizes=\"auto,292.6231509914964px\" src=\"/index Adu_files/8fc2e45a827f35093be9bdfb939c1ae2c3eb10a2.png\" srcset=\"/_assets/v11/8fc2e45a827f35093be9bdfb939c1ae2c3eb10a2.png 1536w, /_assets/v11/8fc2e45a827f35093be9bdfb939c1ae2c3eb10a2.png?w=1850 1850w\"/>",
+    "context": "g?w=1938 1938w\"/>  \n     \n  <img alt=\"\" class"
+  },
+  {
+    "file": "Process.astro",
+    "src": "/images/Generate Rental Income.png",
+    "full": "<img alt=\"\" class=\"css-trglf0 css-u7gf77\" loading=\"lazy\" sizes=\"auto,327.22721417617856px\" src=\"/images/Generate Rental Income.png\" />",
+    "context": "g?w=1850 1850w\"/>  \n     \n  <img alt=\"\" class"
+  },
+  {
+    "file": "Process.astro",
+    "src": "/images/Boost Property Value.png",
+    "full": "<img alt=\"\" class=\"css-trglf0 css-eqt5tl\" loading=\"lazy\" sizes=\"auto,306.4701409381364px\" src=\"/images/Boost Property Value.png\" />",
+    "context": "al Income.png\" />  \n     \n <p class=\"css-8zr5"
+  },
+  {
+    "file": "Process.astro",
+    "src": "/images/Keep Family Close.png",
+    "full": "<img alt=\"\" class=\"css-trglf0 css-7ev66j\" loading=\"lazy\" sizes=\"auto,402.85909754568513px\" src=\"/images/Keep Family Close.png\" />",
+    "context": "zr56v css-o3lsmv\">\u200b  \n     \n  <img alt=\"\" class"
+  },
+  {
+    "file": "Process.astro",
+    "src": "/images/The Ultimate Home Office.png",
+    "full": "<img alt=\"\" class=\"css-trglf0 css-ojnb9\" loading=\"lazy\" sizes=\"auto,394.912514112938px\" src=\"/images/The Ultimate Home Office.png\" />",
+    "context": "ily Close.png\" />  \n     \n  <img alt=\"\" class"
+  },
+  {
+    "file": "Process.astro",
+    "src": "/index Adu_files/22e194fc820e920ab7aea75101d26d5835bcf1ac.png",
+    "full": "<img alt=\"\" class=\"css-trglf0 css-sr2aq0\" loading=\"lazy\" sizes=\"auto,394.912514112938px\" src=\"/index Adu_files/22e194fc820e920ab7aea75101d26d5835bcf1ac.png\" srcset=\"/_assets/v11/22e194fc820e920ab7aea75101d26d5835bcf1ac.png 1536w, /_assets/v11/22e194fc820e920ab7aea75101d26d5835bcf1ac.png?w=1759 1759w, /_assets/v11/22e194fc820e920ab7aea75101d26d5835bcf1ac.png?w=3517 3517w\"/>",
+    "context": "me Office.png\" />  \n     \n  <img alt=\"\" class"
+  },
+  {
+    "file": "Process.astro",
+    "src": "/index Adu_files/22e194fc820e920ab7aea75101d26d5835bcf1ac.png",
+    "full": "<img alt=\"\" class=\"css-trglf0 css-pw3nca\" loading=\"lazy\" sizes=\"auto,371.8558138781875px\" src=\"/index Adu_files/22e194fc820e920ab7aea75101d26d5835bcf1ac.png\" srcset=\"/_assets/v11/22e194fc820e920ab7aea75101d26d5835bcf1ac.png 1536w, /_assets/v11/22e194fc820e920ab7aea75101d26d5835bcf1ac.png?w=1656 1656w, /_assets/v11/22e194fc820e920ab7aea75101d26d5835bcf1ac.png?w=3312 3312w\"/>",
+    "context": "g?w=3517 3517w\"/>  \n     \n  <img alt=\"\" class"
+  },
+  {
+    "file": "Process.astro",
+    "src": "/index Adu_files/8fc2e45a827f35093be9bdfb939c1ae2c3eb10a2.png",
+    "full": "<img alt=\"\" class=\"css-trglf0 css-i12894\" loading=\"lazy\" sizes=\"auto,306.4701409381364px\" src=\"/index Adu_files/8fc2e45a827f35093be9bdfb939c1ae2c3eb10a2.png\" srcset=\"/_assets/v11/8fc2e45a827f35093be9bdfb939c1ae2c3eb10a2.png 1536w, /_assets/v11/8fc2e45a827f35093be9bdfb939c1ae2c3eb10a2.png?w=1938 1938w\"/>",
+    "context": "g?w=3312 3312w\"/>"
+  },
+  {
+    "file": "Process.astro",
+    "src": "/images/See If I Qualify for 0% Financing.svg",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/images/See If I Qualify for 0% Financing.svg\"/>",
+    "context": "33.1875;\">      <div class=\"css-8m4bbg css-grtgjx\" style=\"--transform-inner-width: 18.9375; --tran"
+  },
+  {
+    "file": "Process.astro",
+    "src": "/index Adu_files/9f7e93bb21481a919627f3339fae1d0ed84b36e8.svg",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/index Adu_files/9f7e93bb21481a919627f3339fae1d0ed84b36e8.svg\"/>",
+    "context": "10.8125;\">      <div class=\"css-n4phcc css-grtgjx\" style=\"--transform-inner-width: 1.9375; --trans"
+  },
+  {
+    "file": "Process.astro",
+    "src": "/index Adu_files/a6f95967d2733861f0a7b262c2de93ade530a6dd.svg",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/index Adu_files/a6f95967d2733861f0a7b262c2de93ade530a6dd.svg\"/>",
+    "context": ".578125;\">        \n <div class=\"css-fhmgbl css-grtgjx\""
+  },
+  {
+    "file": "Process.astro",
+    "src": "/images/Not sure which type fits your property.webp",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/images/Not sure which type fits your property.webp\"/>",
+    "context": "ss-mg3gna\">"
+  },
+  {
+    "file": "Process.astro",
+    "src": "/index Adu_files/e01bf69bfab66a27151424ea3e2dfc2db41c7108.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/e01bf69bfab66a27151424ea3e2dfc2db41c7108.svg\"/>",
+    "context": "ss-mg3gna\">        \n <div class=\"css-7ng5sp css-grtgjx\""
+  },
+  {
+    "file": "Process.astro",
+    "src": "/index Adu_files/e01bf69bfab66a27151424ea3e2dfc2db41c7108.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/e01bf69bfab66a27151424ea3e2dfc2db41c7108.svg\"/>",
+    "context": "ss-mg3gna\">        \n <img alt=\"\" class=\"css-ez8men css-"
+  },
+  {
+    "file": "Process.astro",
+    "src": "/index Adu_files/5b4b1d62efcb97fe2849587a38f3b1e20038efd6.png",
+    "full": "<img alt=\"\" class=\"css-ez8men css-trglf0 css-scd4s8\" loading=\"lazy\" sizes=\"auto,276px\" src=\"/index Adu_files/5b4b1d62efcb97fe2849587a38f3b1e20038efd6.png\" srcset=\"/_assets/v11/5b4b1d62efcb97fe2849587a38f3b1e20038efd6.png 1920w, /_assets/v11/5b4b1d62efcb97fe2849587a38f3b1e20038efd6.png?w=512 512w\"/>",
+    "context": "a27151424ea3e2dfc2db41c7108.svg\"/>     \n   \n <img alt=\"\" class=\"css-ez8men css-trglf0 css-scd4s8\" loadi"
+  },
+  {
+    "file": "Process.astro",
+    "src": "/index Adu_files/491f87cf494c3d7d8dd23e98c6e496631702b3a4.png",
+    "full": "<img alt=\"\" class=\"css-ez8men css-trglf0 css-scd4s8\" loading=\"lazy\" sizes=\"auto,272px\" src=\"/index Adu_files/491f87cf494c3d7d8dd23e98c6e496631702b3a4.png\" srcset=\"/_assets/v11/491f87cf494c3d7d8dd23e98c6e496631702b3a4.png 1920w, /_assets/v11/491f87cf494c3d7d8dd23e98c6e496631702b3a4.png?w=512 512w\"/>",
+    "context": "5b4b1d62efcb97fe2849587a38f3b1e20038efd6.png?w=512 512w\"/> \n   \n <img alt=\"\" class=\"css-ez8men css-trglf0 css-scd4s8\" loadi"
+  },
+  {
+    "file": "Process.astro",
+    "src": "/index Adu_files/a966028b88bfa107ab32fadf9f2d9bb1499294a6.png",
+    "full": "<img alt=\"\" class=\"css-ez8men css-trglf0 css-scd4s8\" loading=\"lazy\" sizes=\"auto,277px\" src=\"/index Adu_files/a966028b88bfa107ab32fadf9f2d9bb1499294a6.png\" srcset=\"/_assets/v11/a966028b88bfa107ab32fadf9f2d9bb1499294a6.png 1920w, /_assets/v11/a966028b88bfa107ab32fadf9f2d9bb1499294a6.png?w=512 512w\"/>",
+    "context": "491f87cf494c3d7d8dd23e98c6e496631702b3a4.png?w=512 512w\"/> \n   \n  \n<div class=\"css-pdm29g css-roiesn css-xj"
+  },
+  {
+    "file": "Process.astro",
+    "src": "/index Adu_files/6f106a0f62a48a7baceb351aa9dd6baa785b3c98.svg",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/index Adu_files/6f106a0f62a48a7baceb351aa9dd6baa785b3c98.svg\"/>",
+    "context": "p\"> \n     <img alt=\"\" class=\"css-tzn6qh css-ez8me"
+  },
+  {
+    "file": "Process.astro",
+    "src": "/index Adu_files/98317c3c37a06e282c96c6a93249bfc4010b865d.svg",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/index Adu_files/98317c3c37a06e282c96c6a93249bfc4010b865d.svg\"/>",
+    "context": "62a48a7baceb351aa9dd6baa785b3c98.svg\"/>    <div class=\"css-y2z2ex css-grtgjx\" style=\"--transform-inner-width: 196; --transform-inner-heig"
+  },
+  {
+    "file": "Process.astro",
+    "src": "/index Adu_files/9ec3c479370b7668eb670621d5ddc80f0e438ee3.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/9ec3c479370b7668eb670621d5ddc80f0e438ee3.svg\"/>",
+    "context": "s-lxypyn\">        \n<div class=\"css-kdztah css-ygmejh css-8zrmd9 css-tn07ur textContents\""
+  },
+  {
+    "file": "Process.astro",
+    "src": "/index Adu_files/6f106a0f62a48a7baceb351aa9dd6baa785b3c98.svg",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/index Adu_files/6f106a0f62a48a7baceb351aa9dd6baa785b3c98.svg\"/>",
+    "context": "/p> \n     <img alt=\"\" class=\"css-tzn6qh css-ez8me"
+  },
+  {
+    "file": "Process.astro",
+    "src": "/index Adu_files/98317c3c37a06e282c96c6a93249bfc4010b865d.svg",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/index Adu_files/98317c3c37a06e282c96c6a93249bfc4010b865d.svg\"/>",
+    "context": "62a48a7baceb351aa9dd6baa785b3c98.svg\"/>    <div class=\"css-y30vpr css-grtgjx\" style=\"--transform-inner-width: 196; --transform-inner-heig"
+  },
+  {
+    "file": "Process.astro",
+    "src": "/index Adu_files/9ec3c479370b7668eb670621d5ddc80f0e438ee3.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/9ec3c479370b7668eb670621d5ddc80f0e438ee3.svg\"/>",
+    "context": "s-lxypyn\">        \n<div class=\"css-69peoa css-roiesn css-prhfgi css-pey600 textContents\""
+  },
+  {
+    "file": "Process.astro",
+    "src": "/index Adu_files/6f106a0f62a48a7baceb351aa9dd6baa785b3c98.svg",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/index Adu_files/6f106a0f62a48a7baceb351aa9dd6baa785b3c98.svg\"/>",
+    "context": "/p> \n     <img alt=\"\" class=\"css-tzn6qh css-ez8me"
+  },
+  {
+    "file": "Process.astro",
+    "src": "/index Adu_files/98317c3c37a06e282c96c6a93249bfc4010b865d.svg",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/index Adu_files/98317c3c37a06e282c96c6a93249bfc4010b865d.svg\"/>",
+    "context": "62a48a7baceb351aa9dd6baa785b3c98.svg\"/>    <div class=\"css-y3fo63 css-grtgjx\" style=\"--transform-inner-width: 196; --transform-inner-heig"
+  },
+  {
+    "file": "Process.astro",
+    "src": "/index Adu_files/9ec3c479370b7668eb670621d5ddc80f0e438ee3.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/9ec3c479370b7668eb670621d5ddc80f0e438ee3.svg\"/>",
+    "context": "s-lxypyn\">        \n<div class=\"css-44dda4 css-roiesn css-prhfgi css-pey600 textContents\""
+  },
+  {
+    "file": "Process.astro",
+    "src": "/index Adu_files/6f106a0f62a48a7baceb351aa9dd6baa785b3c98.svg",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/index Adu_files/6f106a0f62a48a7baceb351aa9dd6baa785b3c98.svg\"/>",
+    "context": "/p> \n     <img alt=\"\" class=\"css-tzn6qh css-ez8me"
+  },
+  {
+    "file": "Process.astro",
+    "src": "/index Adu_files/98317c3c37a06e282c96c6a93249bfc4010b865d.svg",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/index Adu_files/98317c3c37a06e282c96c6a93249bfc4010b865d.svg\"/>",
+    "context": "62a48a7baceb351aa9dd6baa785b3c98.svg\"/>    <div class=\"css-y3hhgx css-grtgjx\" style=\"--transform-inner-width: 196; --transform-inner-heig"
+  },
+  {
+    "file": "Process.astro",
+    "src": "/images/Dedicated Project Manager.png",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/images/Dedicated Project Manager.png\"/>",
+    "context": "s-lxypyn\">        \n<div class=\"css-698sx4 css-roiesn css-prhfgi css-pey600 textContents\""
+  },
+  {
+    "file": "Process.astro",
+    "src": "/index Adu_files/6f106a0f62a48a7baceb351aa9dd6baa785b3c98.svg",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/index Adu_files/6f106a0f62a48a7baceb351aa9dd6baa785b3c98.svg\"/>",
+    "context": "/p> \n     <img alt=\"\" class=\"css-tzn6qh css-ez8me"
+  },
+  {
+    "file": "Process.astro",
+    "src": "/index Adu_files/98317c3c37a06e282c96c6a93249bfc4010b865d.svg",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/index Adu_files/98317c3c37a06e282c96c6a93249bfc4010b865d.svg\"/>",
+    "context": "62a48a7baceb351aa9dd6baa785b3c98.svg\"/>     \n <p class=\"css-8jc"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/ff80098a1fecbdbb392729f7164a09c8eee314b7.png",
+    "full": "<img alt=\"\" class=\"css-trglf0 css-c05eps\" loading=\"lazy\" sizes=\"auto,455.99998149466114px\" src=\"/index Adu_files/ff80098a1fecbdbb392729f7164a09c8eee314b7.png\" srcset=\"/_assets/v11/ff80098a1fecbdbb392729f7164a09c8eee314b7.png 1536w, /_assets/v11/ff80098a1fecbdbb392729f7164a09c8eee314b7.png?w=828 828w, /_assets/v11/ff80098a1fecbdbb392729f7164a09c8eee314b7.png?w=1656 1656w\"/>",
+    "context": "nialsAndFooter Component\n---\n\n     \n  <img alt=\"\" class"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/d11e208b0bdde5cd7ed59e71737af8d6475456aa.png",
+    "full": "<img alt=\"\" class=\"css-trglf0 css-y12dhl\" loading=\"lazy\" sizes=\"auto,1922px\" src=\"/index Adu_files/d11e208b0bdde5cd7ed59e71737af8d6475456aa.png\" srcset=\"/_assets/v11/d11e208b0bdde5cd7ed59e71737af8d6475456aa.png 1537w\"/>",
+    "context": "g?w=1656 1656w\"/>  \n     \n  \n<div class=\"css-bz2tic css-ba284p\""
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/e4eb230760c92670c7fdd08a7ac063bd8efa0da5.svg",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/index Adu_files/e4eb230760c92670c7fdd08a7ac063bd8efa0da5.svg\"/>",
+    "context": "33.1875;\">      <div class=\"css-z6u930 css-grtgjx\" style=\"--transform-inner-width: 18.9375; --tran"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/242d78e536c293d9f9ca6706f33d3130f4f74471.svg",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/index Adu_files/242d78e536c293d9f9ca6706f33d3130f4f74471.svg\"/>",
+    "context": "10.8125;\">      <div class=\"css-wvqsld css-grtgjx\" style=\"--transform-inner-width: 1.9375; --trans"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/263539ca1fbb83efa88c3593ef121b60a722cead.svg",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/index Adu_files/263539ca1fbb83efa88c3593ef121b60a722cead.svg\"/>",
+    "context": ".578125;\">        \n  \n<div class=\"css-"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/e4eb230760c92670c7fdd08a7ac063bd8efa0da5.svg",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/index Adu_files/e4eb230760c92670c7fdd08a7ac063bd8efa0da5.svg\"/>",
+    "context": "33.1875;\">      <div class=\"css-1h8qhl css-grtgjx\" style=\"--transform-inner-width: 18.9375; --tran"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/242d78e536c293d9f9ca6706f33d3130f4f74471.svg",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/index Adu_files/242d78e536c293d9f9ca6706f33d3130f4f74471.svg\"/>",
+    "context": "10.8125;\">      <div class=\"css-4frqsc css-grtgjx\" style=\"--transform-inner-width: 1.9375; --trans"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/263539ca1fbb83efa88c3593ef121b60a722cead.svg",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/index Adu_files/263539ca1fbb83efa88c3593ef121b60a722cead.svg\"/>",
+    "context": ".578125;\">        \n <div class=\"css-w23h33 css-roiesn"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/cf6dd13588dab467a0308a5ba9419213f7ec2b27.svg",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/index Adu_files/cf6dd13588dab467a0308a5ba9419213f7ec2b27.svg\"/>",
+    "context": "p class=\"css-8zr56v css-bugtu7\">5.0       <img"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/a421f484657a4c1a2730fb231dd4d4382be70975.svg",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/index Adu_files/a421f484657a4c1a2730fb231dd4d4382be70975.svg\"/>",
+    "context": "g\"/>      <img alt=\"\" class=\"css-tzn6qh css-ez8me"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/2eac416e3bed28f70babceaa41aa06a9a11f5dfa.svg",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/index Adu_files/2eac416e3bed28f70babceaa41aa06a9a11f5dfa.svg\"/>",
+    "context": "657a4c1a2730fb231dd4d4382be70975.svg\"/>      <div class=\"css-kw9u62 css-roiesn\" data-isimage=\"true"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/20451f4f576fe70d03fc55581a2b2f68f8f84dff.svg",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/index Adu_files/20451f4f576fe70d03fc55581a2b2f68f8f84dff.svg\"/>",
+    "context": "div>        <div class=\"css-bz"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/564133403177939486dc7138fff06ee10ef223aa.svg",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/index Adu_files/564133403177939486dc7138fff06ee10ef223aa.svg\"/>",
+    "context": "s-611tt2\">     <img alt=\"\" class=\"css-tzn6qh css-ez8me"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/4a16bb2a8936031c1e059843492059ad56b58eb7.svg",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/index Adu_files/4a16bb2a8936031c1e059843492059ad56b58eb7.svg\"/>",
+    "context": "3177939486dc7138fff06ee10ef223aa.svg\"/>     <img alt=\"\" class=\"css-tzn6qh css-ez8me"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/cf85dd13dc68f779d13d08ed54a65ebef130abc2.svg",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/index Adu_files/cf85dd13dc68f779d13d08ed54a65ebef130abc2.svg\"/>",
+    "context": "8936031c1e059843492059ad56b58eb7.svg\"/>     <img alt=\"\" class=\"css-tzn6qh css-ez8me"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/c86c8a4f931a644a9babfe02ea229a5bdec9651b.svg",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/index Adu_files/c86c8a4f931a644a9babfe02ea229a5bdec9651b.svg\"/>",
+    "context": "dc68f779d13d08ed54a65ebef130abc2.svg\"/>     <img alt=\"\" class=\"css-tzn6qh css-ez8me"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/d69a6f1ec9e3a7c663c72d8ca9760b6d4a82af19.svg",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/index Adu_files/d69a6f1ec9e3a7c663c72d8ca9760b6d4a82af19.svg\"/>",
+    "context": "931a644a9babfe02ea229a5bdec9651b.svg\"/>     <img alt=\"\" class=\"css-tzn6qh css-ez8me"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/cf85dd13dc68f779d13d08ed54a65ebef130abc2.svg",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/index Adu_files/cf85dd13dc68f779d13d08ed54a65ebef130abc2.svg\"/>",
+    "context": "c9e3a7c663c72d8ca9760b6d4a82af19.svg\"/>     <img alt=\"\" class=\"css-tzn6qh css-ez8men"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/059d7247426b1faae2521804368594f9893f583e.svg",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/index Adu_files/059d7247426b1faae2521804368594f9893f583e.svg\"/>",
+    "context": "3dc68f779d13d08ed54a65ebef130abc2.svg\"/>      <img alt=\"\" class=\"css-tzn6qh css"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/5c4b1dd812a5f0f9a75786465dbee5d816fdda2a.svg",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/index Adu_files/5c4b1dd812a5f0f9a75786465dbee5d816fdda2a.svg\"/>",
+    "context": "aae2521804368594f9893f583e.svg\"/>       <img alt=\"\" class=\"css-tzn6qh css"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/6438c2115aa666068490104e142495be9310a337.svg",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/index Adu_files/6438c2115aa666068490104e142495be9310a337.svg\"/>",
+    "context": "f9a75786465dbee5d816fdda2a.svg\"/>      <img alt=\"\" class=\"css-tzn6qh css-ez8me"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/58b95be01159b13e31054d0050ce2b5bf50a7e6b.svg",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/index Adu_files/58b95be01159b13e31054d0050ce2b5bf50a7e6b.svg\"/>",
+    "context": "5aa666068490104e142495be9310a337.svg\"/>     <img alt=\"\" class=\"css-tzn6qh css-ez8me"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/adf112bcc8c9c2a72c7ee826301db69666824cce.svg",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/index Adu_files/adf112bcc8c9c2a72c7ee826301db69666824cce.svg\"/>",
+    "context": "1159b13e31054d0050ce2b5bf50a7e6b.svg\"/>     <img alt=\"\" class=\"css-tzn6qh css-ez8me"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/a729470ed00421bff7ce742fd32c1b948d165417.svg",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/index Adu_files/a729470ed00421bff7ce742fd32c1b948d165417.svg\"/>",
+    "context": "c8c9c2a72c7ee826301db69666824cce.svg\"/>     <img alt=\"\" class=\"css-tzn6qh css-ez8me"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/ac0b2af0267530a79bfd1531dd9cc36cf5d0dbe4.svg",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/index Adu_files/ac0b2af0267530a79bfd1531dd9cc36cf5d0dbe4.svg\"/>",
+    "context": "d00421bff7ce742fd32c1b948d165417.svg\"/>     <img alt=\"\" class=\"css-tzn6qh css-ez8me"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/d3e12b8ea40578856d2ab03d528466d346776461.svg",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/index Adu_files/d3e12b8ea40578856d2ab03d528466d346776461.svg\"/>",
+    "context": "267530a79bfd1531dd9cc36cf5d0dbe4.svg\"/>      <div class=\"css-a6jifw css-roiesn\" data-isimage=\"true"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/7fb18de390c5e14edcef8dceef5feec291ab2507.svg",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/index Adu_files/7fb18de390c5e14edcef8dceef5feec291ab2507.svg\"/>",
+    "context": "div>      General Contractors in Woo"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/671de2d3c3fa9ea1b339410dfdde508fcb3ec032.svg",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/index Adu_files/671de2d3c3fa9ea1b339410dfdde508fcb3ec032.svg\"/>",
+    "context": "ts\">General Contractors in Woodland Hills     <img alt=\"\" class=\"css-tzn6qh css-ez8me"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/images/Just Take Our Word For It..png",
+    "full": "<img alt=\"\" class=\"css-tzn6qh css-ez8men css-7kv4dh\" loading=\"lazy\" src=\"/images/Just Take Our Word For It..png\"/>",
+    "context": "c3fa9ea1b339410dfdde508fcb3ec032.svg\"/>      \n  \n<div class=\"css-7m1p1p css-r"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/images/google.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/images/google.svg\"/>",
+    "context": "s-j6t6rj\">      <div class=\"css-trglf0 css-uxhnrb"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "div>       <div class=\"css-trglf0 css-uxhnrb"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "div>       <div class=\"css-trglf0 css-uxhnrb"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "div>       <div class=\"css-trglf0 css-uxhnrb"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "div>       \n <div class=\"css-vd09wm css-roiesn\" data-isimag"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "s-1wknq3\">      <div class=\"css-trglf0 css-uxhnrb"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "div>       <div class=\"css-trglf0 css-uxhnrb"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "div>       <div class=\"css-trglf0 css-uxhnrb"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "div>       <div class=\"css-trglf0 css-uxhnrb"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "div>       \n <div class=\"css-vlp60p css-roiesn\" data-isimag"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "s-57r0va\">      <div class=\"css-trglf0 css-uxhnrb"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "div>       <div class=\"css-trglf0 css-uxhnrb"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "div>       <div class=\"css-trglf0 css-uxhnrb"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "div>       <div class=\"css-trglf0 css-uxhnrb"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "div>"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "s-2mauph\">      <div class=\"css-trglf0 css-uxhnrb"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "div>       <div class=\"css-trglf0 css-uxhnrb"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "div>       <div class=\"css-trglf0 css-uxhnrb"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "div>       <div class=\"css-trglf0 css-uxhnrb"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "div>        <div class=\"css-n3lg0g css-roiesn\" data-isimage"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "s-enxobz\">      <div class=\"css-trglf0 css-uxhnrb"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "div>       <div class=\"css-trglf0 css-uxhnrb"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "div>       <div class=\"css-trglf0 css-uxhnrb"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "div>       <div class=\"css-trglf0 css-uxhnrb"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "div>        <div class=\"css-unbxr6 css-roiesn\" data-isimage"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "s-2m8zvj\">      <div class=\"css-trglf0 css-uxhnrb"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "div>       <div class=\"css-trglf0 css-uxhnrb"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "div>       <div class=\"css-trglf0 css-uxhnrb"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "div>       <div class=\"css-trglf0 css-uxhnrb"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "div>        <div class=\"css-muwjwd css-roiesn\" data-isimage"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "s-bcrb6s\">      <div class=\"css-trglf0 css-uxhnrb"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "div>       <div class=\"css-trglf0 css-uxhnrb"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "div>       <div class=\"css-trglf0 css-uxhnrb"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "div>       <div class=\"css-trglf0 css-uxhnrb"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "div>        <div class=\"css-n3jl6i css-roiesn\" data-isimage"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "s-enzj5x\">      <div class=\"css-trglf0 css-uxhnrb"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "div>       <div class=\"css-trglf0 css-uxhnrb"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "div>       <div class=\"css-trglf0 css-uxhnrb"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "div>       <div class=\"css-trglf0 css-uxhnrb"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "div>        <p class=\"css-"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "s-bct60q\">      <div class=\"css-trglf0 css-uxhnrb"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "div>       <div class=\"css-trglf0 css-uxhnrb"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "div>       <div class=\"css-trglf0 css-uxhnrb"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "div>       <div class=\"css-trglf0 css-uxhnrb"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "div>        <p class=\"css-"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "s-2mcq1i\">      <div class=\"css-trglf0 css-uxhnrb"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "div>       <div class=\"css-trglf0 css-uxhnrb"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "div>       <div class=\"css-trglf0 css-uxhnrb"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "div>       <div class=\"css-trglf0 css-uxhnrb"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "div>        <div class=\"css-n3nbch css-roiesn\" data-isimage"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "s-envszy\">      <div class=\"css-trglf0 css-uxhnrb"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "div>       <div class=\"css-trglf0 css-uxhnrb"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "div>       <div class=\"css-trglf0 css-uxhnrb"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "div>       <div class=\"css-trglf0 css-uxhnrb"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "div>        <p class=\"css-"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "s-bcpfur\">      <div class=\"css-trglf0 css-uxhnrb"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "div>       <div class=\"css-trglf0 css-uxhnrb"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "div>       <div class=\"css-trglf0 css-uxhnrb"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "div>       <div class=\"css-trglf0 css-uxhnrb"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg",
+    "full": "<img alt=\"\" class=\"css-8zr56v css-ez8men\" loading=\"lazy\" src=\"/index Adu_files/8011cbdde3d80edff0505d503ddc8d3c20c4389d.svg\"/>",
+    "context": "div>        <p class=\"css-"
+  },
+  {
+    "file": "TestimonialsAndFooter.astro",
+    "src": "/index Adu_files/c569ef093ef0b6f2384e1abac01ff828436d2766.png",
+    "full": "<img alt=\"\" class=\"css-ez8men css-trglf0 css-scd4s8\" loading=\"lazy\" sizes=\"auto,269.4736328125px\" src=\"/index Adu_files/c569ef093ef0b6f2384e1abac01ff828436d2766.png\" srcset=\"/_assets/v11/c569ef093ef0b6f2384e1abac01ff828436d2766.png 864w, /_assets/v11/c569ef093ef0b6f2384e1abac01ff828436d2766.png?w=512 512w\"/>",
+    "context": "ht \u00a9 MyHomeBuilders 2025, All rights Reserved. Privacy Policy"
+  },
+  {
+    "file": "WhyChooseUs.astro",
+    "src": "/images/Dedicated Project Manager.png",
+    "full": "<img alt=\"\" class=\"css-ez8men css-trglf0 css-scd4s8\" loading=\"lazy\" sizes=\"auto,973px\" src=\"/images/Dedicated Project Manager.png\" />",
+    "context": "actor roulette.   \u200b  \n   \n <img alt=\"\" class=\"css-ez8men css-trglf0 css-scd4s8\" loadi"
+  },
+  {
+    "file": "WhyChooseUs.astro",
+    "src": "/images/Iron-Clad Fixed Pricing.png",
+    "full": "<img alt=\"\" class=\"css-ez8men css-trglf0 css-scd4s8\" loading=\"lazy\" sizes=\"auto,947px\" src=\"/images/Iron-Clad Fixed Pricing.png\" />",
+    "context": "auto,973px\" src=\"/images/Dedicated Project Manager.png\" /> \n   \n <p class=\"css-8jchzs cs"
+  },
+  {
+    "file": "WhyChooseUs.astro",
+    "src": "/index Adu_files/12152694e89d57a645f69630ce30dfbcc7dce633.png",
+    "full": "<img alt=\"\" class=\"css-ez8men css-trglf0 css-iafcae\" loading=\"lazy\" sizes=\"auto,86px\" src=\"/index Adu_files/12152694e89d57a645f69630ce30dfbcc7dce633.png\" srcset=\"/_assets/v11/12152694e89d57a645f69630ce30dfbcc7dce633.png 1536w, /_assets/v11/12152694e89d57a645f69630ce30dfbcc7dce633.png?w=128 128w, /_assets/v11/12152694e89d57a645f69630ce30dfbcc7dce633.png?w=256 256w\"/>",
+    "context": "change orders.   \u200b  \n   \n <img alt=\"\" class=\"css-ez8men css-trglf0 css-iafcae\" loadi"
+  },
+  {
+    "file": "WhyChooseUs.astro",
+    "src": "/index Adu_files/a2ac1660928341d2a544d272f62b9156e3648e46.png",
+    "full": "<img alt=\"\" class=\"css-ez8men css-trglf0 css-iafcae\" loading=\"lazy\" sizes=\"auto,86px\" src=\"/index Adu_files/a2ac1660928341d2a544d272f62b9156e3648e46.png\" srcset=\"/_assets/v11/a2ac1660928341d2a544d272f62b9156e3648e46.png 1536w, /_assets/v11/a2ac1660928341d2a544d272f62b9156e3648e46.png?w=128 128w, /_assets/v11/a2ac1660928341d2a544d272f62b9156e3648e46.png?w=256 256w\"/>",
+    "context": "12152694e89d57a645f69630ce30dfbcc7dce633.png?w=256 256w\"/> \n   \n <p class=\"css-8jchzs cs"
+  },
+  {
+    "file": "WhyChooseUs.astro",
+    "src": "/index Adu_files/346e77b44feb524f58e355dd6bf04dcbae626ba6.png",
+    "full": "<img alt=\"\" class=\"css-ez8men css-trglf0 css-iafcae\" loading=\"lazy\" sizes=\"auto,86px\" src=\"/index Adu_files/346e77b44feb524f58e355dd6bf04dcbae626ba6.png\" srcset=\"/_assets/v11/346e77b44feb524f58e355dd6bf04dcbae626ba6.png 1536w, /_assets/v11/346e77b44feb524f58e355dd6bf04dcbae626ba6.png?w=128 128w, /_assets/v11/346e77b44feb524f58e355dd6bf04dcbae626ba6.png?w=256 256w\"/>",
+    "context": ", pay over time.  \u200b  \n   \n <img alt=\"\" class=\"css-ez8men css-trglf0 css-scd4s8\" loadi"
+  },
+  {
+    "file": "WhyChooseUs.astro",
+    "src": "/index Adu_files/8be6a321b31b628960a09e45f30fbfa09711c7b3.png",
+    "full": "<img alt=\"\" class=\"css-ez8men css-trglf0 css-scd4s8\" loading=\"lazy\" sizes=\"auto,482px\" src=\"/index Adu_files/8be6a321b31b628960a09e45f30fbfa09711c7b3.png\" srcset=\"/_assets/v11/8be6a321b31b628960a09e45f30fbfa09711c7b3.png 1172w, /_assets/v11/8be6a321b31b628960a09e45f30fbfa09711c7b3.png?h=1024 895w\"/>",
+    "context": "346e77b44feb524f58e355dd6bf04dcbae626ba6.png?w=256 256w\"/>"
+  }
+]

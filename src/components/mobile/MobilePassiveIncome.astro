@@ -1,0 +1,58 @@
+---
+const benefits = [
+  {
+    icon: "images/Generate Rental Income.png",
+    title: "Generate Rental Income",
+    description: "Offset your mortgage with a steady stream of passive income $2,000+/month in most LA neighborhoods."
+  },
+  {
+    icon: "images/Keep Family Close.png",
+    title: "Keep Family Close",
+    description: "Create a beautiful, private space for aging parents or adult children without sacrificing anyone's independence."
+  },
+  {
+    icon: "images/Boost Property Value.png",
+    title: "Boost Property Value",
+    description: "Instantly increase the resale value and square footage of your lot."
+  },
+  {
+    icon: "images/The Ultimate Home Office.png",
+    title: "The Ultimate Home Office",
+    description: "Build the quiet, detached workspace you've always wanted no commute required."
+  }
+];
+---
+<div id="mobile-passive-income" style="width: 480px; background-color: #ffffff; padding: 40px 0; box-sizing: border-box; display: flex; flex-direction: column; align-items: center;">
+  
+  <!-- Title and Subtitle -->
+  <div style="width: 450px; padding: 0 15px; box-sizing: border-box; margin-bottom: 30px; text-align: center;">
+    <h2 style="font-family: 'Playfair Display', serif; font-size: 30px; font-weight: 700; line-height: 1.15em; margin: 0 0 15px 0;">
+      <span style="color: #111111;">Turn Unused Space Into</span><br>
+      <span style="color: #0071c8;">$24,000+ a Year in Passive Income.</span>
+    </h2>
+    <p style="font-family: Inter, sans-serif; font-size: 18px; font-weight: 400; line-height: 1.35em; color: #7E7E7E; margin: 0;">
+      A well-built ADU or garage conversion is one of the smartest real estate investments you can make in Los Angeles. The numbers speak for themselves.
+    </p>
+  </div>
+
+  <!-- 2x2 Grid of Cards -->
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; width: 450px; box-sizing: border-box; padding: 0 15px;">
+    {benefits.map((benefit) => (
+      <div style="background-color: #ffffff; border: 1px solid #e3e3e3; border-radius: 0px; padding: 20px 10px; display: flex; flex-direction: column; align-items: center; box-sizing: border-box; justify-content: flex-start; text-align: center;">
+        <!-- Isometric Icon -->
+        <img src={benefit.icon} alt={benefit.title} style="height: 60px; width: auto; object-fit: contain; margin-bottom: 15px;" />
+        
+        <!-- Blue Title Banner -->
+        <div style="background-color: #0071c8; color: #ffffff; font-family: Inter, sans-serif; font-size: 11px; font-weight: 700; padding: 6px 4px; width: 100%; border-radius: 0px; text-transform: uppercase; text-align: center; margin-bottom: 12px; box-sizing: border-box; letter-spacing: 0.02em; min-height: 38px; display: flex; align-items: center; justify-content: center;">
+          {benefit.title}
+        </div>
+        
+        <!-- Description -->
+        <p style="font-family: Inter, sans-serif; font-size: 13.5px; font-weight: 400; line-height: 1.3em; color: #7E7E7E; margin: 0;">
+          {benefit.description}
+        </p>
+      </div>
+    ))}
+  </div>
+
+</div>

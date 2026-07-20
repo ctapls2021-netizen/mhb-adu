@@ -1,0 +1,68 @@
+---
+const projects = [
+  {
+    image: "images/Studio City 1.jpg",
+    city: "STUDIO CITY"
+  },
+  {
+    image: "images/Inglewood.jpg",
+    city: "INGLEWOOD"
+  },
+  {
+    image: "images/Reseda, CA.jpg",
+    city: "RESEDA, CA"
+  },
+  {
+    image: "images/Woodland Hills, CA.jpg",
+    city: "WOODLAND HILLS, CA"
+  },
+  {
+    image: "images/Sherman Oaks.jpg",
+    city: "SHERMAN OAKS"
+  },
+  {
+    image: "images/Studio City.jpg",
+    city: "STUDIO CITY"
+  }
+];
+---
+<div id="mobile-projects-section" style="width: 480px; background-color: #ffffff; padding: 40px 0 0 0; box-sizing: border-box; display: flex; flex-direction: column; align-items: center;">
+  
+  <!-- Title and Subtitle -->
+  <div style="width: 450px; padding: 0 15px; box-sizing: border-box; margin-bottom: 30px; text-align: center;">
+    <h2 style="font-family: 'Playfair Display', serif; font-size: 30px; font-weight: 700; line-height: 1.2em; color: #111111; margin: 0 0 15px 0;">
+      Our ADU's Projects
+    </h2>
+    <p style="font-family: Inter, sans-serif; font-size: 18px; font-weight: 400; line-height: 1.35em; color: #7E7E7E; margin: 0;">
+      Explore our latest transformations, where design meets craftsmanship and every detail matters.
+    </p>
+  </div>
+
+  <!-- Full-width 2-column Grid of Projects -->
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4px; width: 480px; box-sizing: border-box; padding: 0;">
+    {projects.map((project) => (
+      <div style="width: 238px; height: 238px; position: relative; overflow: hidden; display: block;">
+        <!-- Project Image -->
+        <img 
+          alt={`ADU in ${project.city}`} 
+          src={project.image} 
+          style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 0px;" 
+        />
+        
+        <!-- Dark Gradient Overlay -->
+        <div style="position: absolute; bottom: 0; left: 0; width: 100%; height: 60%; z-index: 1; background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.75) 100%);"></div>
+        
+        <!-- Text Overlay -->
+        <div style="position: absolute; left: 15px; bottom: 15px; z-index: 2; display: flex; flex-direction: column;">
+          <span style="color: #ffffff; font-family: 'Playfair Display', serif; font-size: 18px; font-weight: 400; line-height: 1.1em; margin-bottom: 2px;">
+            ADU
+          </span>
+          <span style="color: #ffffff; font-family: Inter, sans-serif; font-size: 11px; font-weight: 400; text-transform: uppercase; letter-spacing: 0.05em;">
+            {project.city}
+          </span>
+        </div>
+      </div>
+    ))}
+  </div>
+
+</div>

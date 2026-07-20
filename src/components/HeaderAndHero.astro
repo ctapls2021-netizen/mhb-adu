@@ -1,0 +1,345 @@
+---
+---
+
+<style is:global>
+  /* Remove any vertical blue line in hero background, title and subtitle for BOTH desktop and mobile */
+  #container .hero-title,
+  #container .hero-subtitle,
+  .hero-title,
+  .hero-subtitle,
+  .css-thvz0a,
+  .css-thvz0a *,
+  .css-ynwhf5,
+  .css-ynwhf5 *,
+  .css-shlrkj,
+  .css-shlrkj * {
+    border-left: none !important;
+    border-left-width: 0px !important;
+    padding-left: 0 !important;
+  }
+
+  /* ── MOBILE HERO: Form below background image, border-radius 0 ── */
+  @media (max-width: 1023px) {
+    /* Header 1 (static) hidden on mobile */
+    #header-static {
+      display: none !important;
+    }
+
+    /* Header 2 (sticky) is the only header on mobile, visible at the top */
+    #header-sticky {
+      display: block !important;
+      position: fixed !important;
+      top: 0 !important;
+      left: 0 !important;
+      width: 480px !important;
+      height: 60px !important;
+      transform: translateY(0) !important;
+      background-color: rgba(0,0,0,0.85) !important;
+      z-index: 1000 !important;
+    }
+
+    /* Hide license info on mobile header to avoid overflow */
+    #header-sticky .header-license-info {
+      display: none !important;
+    }
+
+    /* Hide blue button on mobile header */
+    #header-sticky .header-desktop-btn {
+      display: none !important;
+    }
+
+    /* Show call button on mobile header */
+    #header-sticky .header-call-btn {
+      display: flex !important;
+      position: absolute !important;
+      right: 0px !important;
+      top: 0px !important;
+      height: 100% !important;
+      padding: 0 15px !important;
+      font-size: 14px !important;
+      background-color: #F27926 !important;
+      color: #ffffff !important;
+      align-items: center !important;
+      justify-content: center !important;
+      border-radius: 0 !important;
+    }
+
+    /* Style logo inside mobile header */
+    #header-sticky img {
+      left: 15px !important;
+      height: 35px !important;
+      width: auto !important;
+      top: 50% !important;
+      transform: translateY(-50%) !important;
+    }
+
+    /* Strip border-left from all elements in hero except the input box backgrounds */
+    #container *:not(.css-hh2n3s):not(.css-qts07o):not(.css-eby9o8):not(.css-ax9u1d) {
+      border-left: none !important;
+      border-left-width: 0px !important;
+    }
+
+    #container .css-ynwhf5,
+    #container .css-shlrkj {
+      width: 480px !important;
+      height: 350px !important;
+      position: absolute !important;
+      top: 0 !important;
+      left: 0 !important;
+    }
+
+    #container .hero-title {
+      font-size: 24px !important;
+      line-height: 1.1em !important;
+      position: absolute !important;
+      top: 80px !important;
+      left: 15px !important;
+      width: 450px !important;
+      padding-left: 0 !important;
+    }
+
+    #container .hero-subtitle {
+      font-size: 16px !important;
+      line-height: 1.1em !important;
+      position: absolute !important;
+      top: 180px !important;
+      left: 15px !important;
+      width: 450px !important;
+      padding-left: 0 !important;
+    }
+
+    /* Form Container */
+    #container .css-g4f51y {
+      display: block !important;
+      position: absolute !important;
+      top: 350px !important;
+      left: 0px !important;
+      width: 480px !important;
+      height: 480px !important;
+      background: #ffffff !important;
+      border-radius: 0px !important;
+      border: none !important;
+      transform: none !important;
+    }
+
+    /* Form Title */
+    #container .css-berxc4 {
+      display: block !important;
+      position: absolute !important;
+      top: 375px !important;
+      left: 15px !important;
+      width: 450px !important;
+      text-align: center !important;
+      font-size: 20px !important;
+      font-weight: 700 !important;
+      color: #000000 !important;
+      transform: none !important;
+    }
+
+    /* Form Subtitle */
+    #container .css-c5pksj {
+      display: block !important;
+      position: absolute !important;
+      top: 405px !important;
+      left: 15px !important;
+      width: 450px !important;
+      text-align: center !important;
+      font-size: 13px !important;
+      transform: none !important;
+    }
+
+    /* Form Fields labels */
+    #container .css-6fmg2r,
+    #container .css-u10va8,
+    #container .css-vxc1fj,
+    #container .css-lykunb {
+      display: block !important;
+      position: absolute !important;
+      width: 400px !important;
+      height: 48px !important;
+      line-height: 48px !important;
+      left: 40px !important;
+      padding-left: 0 !important;
+      text-align: center !important;
+      color: #777777 !important;
+      font-size: 15px !important;
+      z-index: 15 !important;
+      transform: none !important;
+    }
+    #container .css-6fmg2r { top: 450px !important; }
+    #container .css-u10va8 { top: 510px !important; }
+    #container .css-vxc1fj { top: 570px !important; }
+    #container .css-lykunb { top: 630px !important; }
+
+    /* Form Fields background div cards */
+    #container .css-hh2n3s,
+    #container .css-qts07o,
+    #container .css-eby9o8,
+    #container .css-ax9u1d {
+      display: block !important;
+      position: absolute !important;
+      width: 400px !important;
+      height: 48px !important;
+      left: 40px !important;
+      border: 1px solid #c3c3c3 !important;
+      background: #ffffff !important;
+      border-radius: 0px !important;
+      z-index: 10 !important;
+      transform: none !important;
+    }
+    #container .css-hh2n3s { top: 450px !important; }
+    #container .css-qts07o { top: 510px !important; }
+    #container .css-eby9o8 { top: 570px !important; }
+    #container .css-ax9u1d { top: 630px !important; }
+
+    /* Submit Button */
+    #container .css-j0lci9 {
+      display: flex !important;
+      position: absolute !important;
+      top: 700px !important;
+      left: 40px !important;
+      width: 400px !important;
+      height: 50px !important;
+      background-color: #007bc3 !important;
+      color: #ffffff !important;
+      border-radius: 0px !important;
+      font-weight: 700 !important;
+      font-size: 16px !important;
+      justify-content: center !important;
+      align-items: center !important;
+      z-index: 12 !important;
+      transform: none !important;
+    }
+
+    /* Omit unnecessary SVGs inside the form */
+    #container .css-z4jq13,
+    #container .css-enc9pu,
+    #container .css-oqd1ox {
+      display: none !important;
+    }
+  }
+</style>
+
+<div id="header-static" style="z-index: 1001; position: absolute; top: 0; left: 0; width: 100%; height: 60px; background-color: rgba(0,0,0,0.42); box-sizing: border-box;">
+  <div style="position: relative; max-width: 1920px; margin: 0 auto; height: 100%; display: flex; align-items: center; justify-content: center; flex-wrap: nowrap;">
+    <img alt="My Home Builders" src="images/Logo.png" style="position: absolute; left: 40px; top: 80px; width: 197.49px; height: 55.64px; z-index: 1002;" />
+    
+    <div class="header-license-info" style="display: flex; align-items: center; justify-content: center; gap: 6px; white-space: nowrap; flex-wrap: nowrap;">
+      <span style="color: #F5F9FA; font-family: Inter, sans-serif; font-size: 18px; font-weight: 700; line-height: 37.694px; white-space: nowrap;">CA Lic. #1002927 | Licensed, Bonded &amp; Insured | </span>
+      <span style="color: #F27926; font-family: Inter, sans-serif; font-size: 18px; font-weight: 700; line-height: 37.694px; white-space: nowrap; display: flex; align-items: center; gap: 4px;">100% Financing Available | 
+        <a href="tel:8189144900" style="color: inherit; text-decoration: none; display: flex; align-items: center; gap: 4px;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#A0A0A0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-top: -2px;"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          (818) 914-4900
+        </a>
+      </span>
+    </div>
+
+    <a href="#estimate" class="header-desktop-btn" style="position: absolute; right: 0; top: 0; height: 100%; background-color: #007cc2; color: #ffffff; font-family: Inter, sans-serif; font-weight: 700; font-size: 16px; padding: 0 24px; text-decoration: none; border-radius: 0; white-space: nowrap; display: flex; align-items: center;">GET MY FREE ADU ESTIMATE</a>
+    <a href="tel:8189144900" class="header-call-btn" style="display: none; position: absolute; right: 0; top: 0; height: 100%; background-color: #F27926; color: #ffffff; font-family: Inter, sans-serif; font-weight: 700; font-size: 16px; padding: 0 24px; text-decoration: none; border-radius: 0; white-space: nowrap; align-items: center; gap: 8px;">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-top: -2px;"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+      CALL (818) 914-4900
+    </a>
+  </div>
+</div>
+
+<div id="header-sticky" style="z-index: 1000; position: fixed; top: 0; left: 0; width: 100%; height: 60px; background-color: rgba(0,0,0,0.70); box-sizing: border-box; transform: translateY(-100%); transition: transform 0.3s ease-in-out;">
+  <div style="position: relative; max-width: 1920px; margin: 0 auto; height: 100%; display: flex; align-items: center; justify-content: center; flex-wrap: nowrap;">
+    <img alt="My Home Builders" src="images/Logo.png" style="position: absolute; left: 40px; top: 50%; transform: translateY(-50%); height: 50px; width: auto;" />
+    
+    <div class="header-license-info" style="display: flex; align-items: center; justify-content: center; gap: 6px; white-space: nowrap; flex-wrap: nowrap;">
+      <span style="color: #F5F9FA; font-family: Inter, sans-serif; font-size: 18px; font-weight: 700; line-height: 37.694px; white-space: nowrap;">CA Lic. #1002927 | Licensed, Bonded &amp; Insured | </span>
+      <span style="color: #F27926; font-family: Inter, sans-serif; font-size: 18px; font-weight: 700; line-height: 37.694px; white-space: nowrap; display: flex; align-items: center; gap: 4px;">100% Financing Available | 
+        <a href="tel:8189144900" style="color: inherit; text-decoration: none; display: flex; align-items: center; gap: 4px;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#A0A0A0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-top: -2px;"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          (818) 914-4900
+        </a>
+      </span>
+    </div>
+
+    <a href="#estimate" class="header-desktop-btn" style="position: absolute; right: 0; top: 0; height: 100%; background-color: #007cc2; color: #ffffff; font-family: Inter, sans-serif; font-weight: 700; font-size: 16px; padding: 0 24px; text-decoration: none; border-radius: 0; white-space: nowrap; display: flex; align-items: center;">GET MY FREE ADU ESTIMATE</a>
+    <a href="tel:8189144900" class="header-call-btn" style="display: none; position: absolute; right: 0; top: 0; height: 100%; background-color: #F27926; color: #ffffff; font-family: Inter, sans-serif; font-weight: 700; font-size: 16px; padding: 0 24px; text-decoration: none; border-radius: 0; white-space: nowrap; align-items: center; gap: 8px;">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-top: -2px;"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+      CALL (818) 914-4900
+    </a>
+  </div>
+</div>
+<div style="position: absolute; left: 0; top: 0; width: 1920px; height: 844px; overflow: hidden; z-index: 1;">
+  <img alt="Los Angeles ADU Builders" src="images/Los Angeles ADU Builders.webp" style="width: 100%; height: 100%; object-fit: cover;" />
+  <div style="position: absolute; inset: 0; background: rgba(0,0,0,0.22); pointer-events: none;"></div>
+</div>
+
+<!-- Hero title & subtitle -->
+<h1 style="position: absolute; left: 85px; top: 310px; width: 794px; color: #ffffff; font-family: 'Playfair Display', serif; font-size: 60px; font-weight: 700; line-height: 75px; margin: 0; z-index: 10; border: none !important; border-left: none !important; outline: none !important;">Los Angeles ADU Builders<br>You Can Actually Trust</h1>
+<p style="position: absolute; left: 85px; top: 490px; width: 831px; height: 172px; color: #F5F9FA; font-family: Inter, sans-serif; font-size: 26px; font-weight: 500; line-height: 34px; margin: 0; z-index: 10; border: none !important; border-left: none !important; outline: none !important; padding-left: 0 !important;">From expedited city permits to flawless construction, we handle 100% of your ADU project so you generate passive income or house family members without the typical contractor headaches.</p>
+
+<form id="estimate" style="position: absolute; left: 1350px; top: 173px; width: 468px; height: 553px; background-color: #ffffff; border-radius: 12px; border: 1px solid #adadad; box-sizing: border-box; z-index: 10; padding: 30px 37px; display: flex; flex-direction: column; align-items: center; justify-content: center; box-shadow: 0 10px 30px rgba(0,0,0,0.08);">
+  <!-- Subtitle Line 1 -->
+  <p style="color: #007BC3; text-align: center; font-family: Inter, sans-serif; font-size: 14px; font-style: normal; font-weight: 700; line-height: 22px; text-transform: capitalize; margin: 0; border: none !important;">
+    Takes 30 seconds. No obligation. A real person
+  </p>
+
+  <!-- Subtitle Line 2 -->
+  <p style="color: #000; text-align: center; font-family: Inter, sans-serif; font-size: 14px; font-style: normal; font-weight: 500; line-height: 22px; text-transform: capitalize; margin: 0 0 14px 0; border: none !important;">
+    Not a call center — responds within 1 business day.
+  </p>
+
+  <!-- Title -->
+  <h2 style="color: #007BC3; text-align: center; font-family: 'Playfair Display', serif; font-size: 28px; font-style: normal; font-weight: 600; line-height: 32px; text-transform: capitalize; width: 296px; height: 49px; margin: 0 0 24px 0; border: none !important;">
+    Check Your Property's<br/>ADU Eligibility
+  </h2>
+
+  <!-- Inputs Wrapper -->
+  <div style="width: 100%; display: flex; flex-direction: column; gap: 12px;">
+    <!-- Name -->
+    <div style="position: relative;">
+      <input type="text" name="name" placeholder="Full Name" style="width: 100%; height: 44px; border: 1px solid #c3c3c3; border-radius: 4px; padding: 0 16px; font-family: Inter, sans-serif; font-size: 15px; font-style: normal; font-weight: 400; line-height: 18px; text-transform: capitalize; color: #000; outline: none; background-color: #fff; box-sizing: border-box;" required />
+    </div>
+
+    <!-- Phone -->
+    <div style="position: relative;">
+      <input type="tel" name="phone" placeholder="Phone Number" style="width: 100%; height: 44px; border: 1px solid #c3c3c3; border-radius: 4px; padding: 0 16px; font-family: Inter, sans-serif; font-size: 15px; font-style: normal; font-weight: 400; line-height: 18px; text-transform: capitalize; color: #000; outline: none; background-color: #fff; box-sizing: border-box;" required />
+    </div>
+
+    <!-- Zip -->
+    <div style="position: relative;">
+      <input type="text" name="zip" placeholder="Zip Code" style="width: 100%; height: 44px; border: 1px solid #c3c3c3; border-radius: 4px; padding: 0 16px; font-family: Inter, sans-serif; font-size: 15px; font-style: normal; font-weight: 400; line-height: 18px; text-transform: capitalize; color: #000; outline: none; background-color: #fff; box-sizing: border-box;" required />
+    </div>
+
+    <!-- Project Type Select -->
+    <div style="position: relative;">
+      <select name="projectType" style="width: 100%; height: 44px; border: 1px solid #c3c3c3; border-radius: 4px; padding: 0 16px; font-family: Inter, sans-serif; font-size: 15px; font-style: normal; font-weight: 400; line-height: 18px; text-transform: capitalize; color: #000; outline: none; background-color: #fff; appearance: none; cursor: pointer; box-sizing: border-box;" required>
+        <option value="" disabled selected>Project Type</option>
+        <option value="detached">Detached ADU</option>
+        <option value="attached">Attached ADU</option>
+        <option value="conversion">Garage Conversion</option>
+      </select>
+      <!-- Arrow -->
+      <div style="position: absolute; right: 16px; top: 50%; transform: translateY(-50%); pointer-events: none; width: 0; height: 0; border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 5px solid #666;"></div>
+    </div>
+  </div>
+
+  <!-- Submit Button -->
+  <div style="width: 100%; margin-top: 24px;">
+    <button type="submit" style="width: 100%; height: 51px; background-color: #007bc3; color: #ffffff; border: none; border-radius: 4px; font-family: Inter, sans-serif; font-size: 16px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; cursor: pointer; transition: background-color 0.2s; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 12px rgba(0, 123, 195, 0.25); box-sizing: border-box;">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 10px; flex-shrink: 0;">
+        <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2" fill="none"></circle>
+        <line x1="8" y1="12" x2="16" y2="12" stroke="currentColor" stroke-width="2"></line>
+        <polyline points="12 8 16 12 12 16" stroke="currentColor" stroke-width="2"></polyline>
+      </svg>
+      Get My Free ADU Estimate
+    </button>
+  </div>
+</form><div class="css-q8xc2o css-roiesn css-qzkf75"></div><div class="css-sndnsr css-roiesn"><div class="css-o7b50b css-trglf0"><img alt="" class="css-trglf0 css-uqjlij" loading="lazy" sizes="auto,236.41509792895113px" src="./../index Adu_files/e19dd23152d4dbc3a2dcd35df7b94f516a48a678.png"/></div></div><p class="css-tzn6qh css-7o6ptt css-s1yexu css-2foyk5 textContents">We Handle All City Permits &amp; Plans</p><p class="css-tzn6qh css-qm6qph css-s1yexu css-5r8u45 textContents">No City Hall trips. No confusing zoning paperwork.</p><div class="css-garh3z css-roiesn"><div class="css-o7b50b css-trglf0"><img alt="" class="css-trglf0 css-oqbhj4" loading="lazy" sizes="auto,278.902160009917px" src="./../index Adu_files/e19dd23152d4dbc3a2dcd35df7b94f516a48a678.png"/></div></div><p class="css-tzn6qh css-if3i6z css-s1yexu css-2foyk5 textContents">Fixed-Price Guarantee</p><div class="css-597ftk css-s1yexu css-roiesn css-9ubdop textContents"><p class="css-8jchzs css-4r0qo6">Your written quote is your final price. No hidden fees, no surprise change orders. </p><p class="css-8zr56v css-7jf7it"></p></div><div class="css-s9gfsz css-roiesn"><div class="css-o7b50b css-trglf0"><img alt="" class="css-trglf0 css-ba05sm" loading="lazy" sizes="auto,278.902160009917px" src="./../index Adu_files/e19dd23152d4dbc3a2dcd35df7b94f516a48a678.png"/></div></div><p class="css-tzn6qh css-vbhb33 css-s1yexu css-2foyk5 textContents">0% Interest for 18 Months Available</p><div class="css-d7ckiu css-s1yexu css-roiesn css-ki8et9 textContents"><p class="css-8jchzs css-4byofj">Build now, pay over time.</p><p class="css-8zr56v css-kj5mf2"></p></div><div data-isimage="true" class="css-roiesn css-y0pcg6"><img loading="lazy" src="./index Adu_files/307bdb784d1a076084cff4cac804a8447537c06b.svg" alt="" class="css-tzn6qh css-ez8men css-7kv4dh"></div><div data-isimage="true" class="css-roiesn css-ofk2xc"><img loading="lazy" src="./index Adu_files/e61c0a669c48b0821121ed169e559cac584879ac.svg" alt="" class="css-tzn6qh css-ez8men css-7kv4dh"></div><div class="css-bz2tic css-a4pyad"><div class="css-w23h33 css-roiesn css-rqi8kd"></div><div class="css-9kazg1 css-5z8fmd css-8zrmd9 css-ln59h2 textContents"><p class="css-8zr56v css-bugtu7">5.0</p></div><div class="css-4a65ty css-5z8fmd css-8zrmd9 css-ln59h2 textContents"><p class="css-8zr56v css-bugtu7">5.0</p></div><div class="css-ff9n2j css-5z8fmd css-8zrmd9 css-ln59h2 textContents"><p class="css-8zr56v css-bugtu7">4.9</p></div><div class="css-xt60i1 css-5z8fmd css-8zrmd9 css-ln59h2 textContents"><p class="css-8zr56v css-bugtu7">4.9</p></div><div class="css-923749 css-5z8fmd css-8zrmd9 css-ln59h2 textContents"><p class="css-8zr56v css-bugtu7">5.0</p></div><div data-isimage="true" class="css-3knx8i css-roiesn"><img loading="lazy" src="./index Adu_files/cf6dd13588dab467a0308a5ba9419213f7ec2b27.svg" alt="" class="css-tzn6qh css-ez8men css-7kv4dh"></div><div class="css-bz2tic css-rdgn4m"><div data-isimage="true" class="css-u1xt44 css-roiesn"><img loading="lazy" src="images/fully-licensed.png" alt="" class="css-tzn6qh css-ez8men css-7kv4dh"></div><div data-isimage="true" class="css-ewt4lu css-roiesn"><img loading="lazy" src="images/fixed-pricing.png" alt="" class="css-tzn6qh css-ez8men css-7kv4dh"></div></div><div class="css-bz2tic css-oqjtr8"><div data-isimage="true" class="css-kw9u62 css-roiesn"><img loading="lazy" src="images/project-manager.png" alt="" class="css-tzn6qh css-ez8men css-7kv4dh"></div></div><div class="css-bz2tic css-kxpsk7"><div class="css-bz2tic css-611tt2"><div class="css-bz2tic css-611tt2"><div data-isimage="true" class="css-8fcfe3 css-roiesn"><img loading="lazy" src="./index Adu_files/564133403177939486dc7138fff06ee10ef223aa.svg" alt="" class="css-tzn6qh css-ez8men css-7kv4dh"></div><div data-isimage="true" class="css-ucugoz css-roiesn"><img loading="lazy" src="./index Adu_files/4a16bb2a8936031c1e059843492059ad56b58eb7.svg" alt="" class="css-tzn6qh css-ez8men css-7kv4dh"></div><div data-isimage="true" class="css-ugy7z2 css-roiesn"><img loading="lazy" src="./index Adu_files/cf85dd13dc68f779d13d08ed54a65ebef130abc2.svg" alt="" class="css-tzn6qh css-ez8men css-7kv4dh"></div><div data-isimage="true" class="css-mmyo2b css-roiesn"><img loading="lazy" src="./index Adu_files/c86c8a4f931a644a9babfe02ea229a5bdec9651b.svg" alt="" class="css-tzn6qh css-ez8men css-7kv4dh"></div><div data-isimage="true" class="css-cn6pis css-roiesn"><img loading="lazy" src="./index Adu_files/d69a6f1ec9e3a7c663c72d8ca9760b6d4a82af19.svg" alt="" class="css-tzn6qh css-ez8men css-7kv4dh"></div><div data-isimage="true" class="css-408gk4 css-roiesn"><img loading="lazy" src="./index opacity-05.svg" class="css-tzn6qh css-ez8men css-7kv4dh" style="display:none;"></div><div data-isimage="true" class="css-8w07b css-roiesn"><img loading="lazy" src="./index Adu_files/059d7247426b1faae2521804368594f9893f583e.svg" alt="" class="css-tzn6qh css-ez8men css-7kv4dh"></div></div><div data-isimage="true" class="css-qqpa7q css-roiesn"><img loading="lazy" src="./index Adu_files/5c4b1dd812a5f0f9a75786465dbee5d816fdda2a.svg" alt="" class="css-tzn6qh css-ez8men css-7kv4dh"></div></div><div data-isimage="true" class="css-hgkeac css-roiesn"><img loading="lazy" src="./index Adu_files/6438c2115aa666068490104e142495be9310a337.svg" alt="" class="css-tzn6qh css-ez8men css-7kv4dh"></div><div data-isimage="true" class="css-hce7f1 css-roiesn"><img loading="lazy" src="./index Adu_files/58b95be01159b13e31054d0050ce2b5bf50a7e6b.svg" alt="" class="css-tzn6qh css-ez8men css-7kv4dh"></div><div data-isimage="true" class="css-qnpkiu css-roiesn"><img loading="lazy" src="./index Adu_files/adf112bcc8c9c2a72c7ee826301db69666824cce.svg" alt="" class="css-tzn6qh css-ez8men css-7kv4dh"></div><div data-isimage="true" class="css-2u0x0r css-roiesn"><img loading="lazy" src="./index Adu_files/a729470ed00421bff7ce742fd32c1b948d165417.svg" alt="" class="css-tzn6qh css-ez8men css-7kv4dh"></div><div data-isimage="true" class="css-t24aea css-roiesn"><img loading="lazy" src="./index Adu_files/ac0b2af0267530a79bfd1531dd9cc36cf5d0dbe4.svg" alt="" class="css-tzn6qh css-ez8men css-7kv4dh"></div><div data-isimage="true" class="css-xog5ow css-roiesn"><img loading="lazy" src="./index Adu_files/d3e12b8ea40578856d2ab03d528466d346776461.svg" alt="" class="css-tzn6qh css-ez8men css-7kv4dh"></div></div><div class="css-bz2tic css-zepgku"><div data-isimage="true" class="css-a6jifw css-roiesn"><img loading="lazy" src="./index Adu_files/7fb18de390c5e14edcef8dceef5feec291ab2507.svg" alt="" class="css-tzn6qh css-ez8men css-7kv4dh"></div><p class="css-tzn6qh css-6rcli9 css-v4058c css-tdr6ba textContents">General Contractors in Woodland Hills</p><div data-isimage="true" class="css-r2gqcj css-roiesn"><img loading="lazy" src="./index Adu_files/671de2d3c3fa9ea1b339410dfdde508fcb3ec032.svg" alt="" class="css-tzn6qh css-ez8men css-7kv4dh"></div><div data-isimage="true" class="css-whmmcw css-roiesn"><img loading="lazy" src="./index Adu_files/0bd7b0f330cbb53917847311d23015f7400e9e67.svg" alt="" class="css-tzn6qh css-ez8men css-7kv4dh"></div></div></div><div class="css-unx34w css-wt55do css-roiesn css-9ubdop textContents"><p class="css-8jchzs css-g0xrs8">Building an ADU doesn't mean draining your savings upfront. Whether you're building for rental income, family, or both, we make the financial side easy for qualified homeowners. </p><p class="css-8zr56v css-o3lsmv">​</p></div><p class="css-tzn6qh css-vmxzwy css-ho2054 css-6fjkjm textContents">We navigate the notorious Los Angeles permitting process so you don't have to spend hours at City Hall. We submit the plans, handle the revisions, and secure the approvals</p><div class="css-vnck5x css-roiesn css-6p4mh2 css-6fjkjm textContents"><p class="css-8jchzs css-g0xrs8">See exactly what your new space will look like before you commit to anything. Make changes before construction starts, not after. </p><p class="css-8zr56v css-o3lsmv">​</p></div><div class="css-vnd96n css-roiesn css-6p4mh2 css-6fjkjm textContents"><p class="css-8jchzs css-g0xrs8">Because we handle design, permits, and construction under one roof, your ADU is finished  and generating income faster than working with separate vendors. </p><p class="css-8jchzs css-o3lsmv">​</p><p class="css-8zr56v css-o3lsmv">​</p></div><div class="css-vndz4y css-roiesn css-6p4mh2 css-6fjkjm textContents"><p class="css-8jchzs css-g0xrs8">We've been building in LA long enough to know every step of the process and every way it can go wrong if it's not handled right. </p><p class="css-8jchzs css-o3lsmv">​</p><p class="css-8jchzs css-o3lsmv">​</p><p class="css-8zr56v css-o3lsmv">​</p></div><div class="css-vnf3y0 css-roiesn css-6p4mh2 css-6fjkjm textContents"><p class="css-8jchzs css-g0xrs8">Design, permits, and construction handled by one accountable team. No juggling separate architects, permit expediters, and builders who each blame the other when something slips. </p><p class="css-8zr56v css-o3lsmv">​</p></div><div class="css-rrzfpo css-hhlsjh css-8zrmd9 css-dnkrvq textContents"><p class="css-8zr56v css-3xo105">Fully Licensed &amp; Insured</p></div><div class="css-rs07sm css-hhlsjh css-8zrmd9 css-dnkrvq textContents"><p class="css-8zr56v css-3xo105">Iron-Clad Fixed Pricing</p></div><div class="css-nm24ot css-159qxp css-8zrmd9 css-mny9j7 textContents"><p class="css-8zr56v css-2gbzg4">Thinking About Building an ADU?</p></div><p class="css-tzn6qh css-1whxvk css-5akpzn css-o9xnoa textContents">You're Right to Be Careful.</p><div class="css-rs1fiq css-hhlsjh css-8zrmd9 css-dnkrvq textContents"><p class="css-8zr56v css-3xo105">Dedicated Project Manager</p></div><p class="css-q69gve css-roiesn css-2xv5jz css-6fjkjm textContents"><span class="css-t4cmx5 css-62n66g">Let's be honest:</span><span class="css-uznkmq css-b54yok"> </span></p><p class="css-tzn6qh css-prp3gy css-wt55do css-67qnwz textContents">A well-built ADU or garage conversion is one of the smartest real estate investments you can make in Los Angeles. The numbers speak for themselves.</p><div class="css-oxl53q css-roiesn css-6p4mh2 css-6fjkjm textContents"><p class="css-8jchzs css-g0xrs8">CA Lic. #1002927. Your property is protected from day one. </p><p class="css-8zr56v css-o3lsmv">​</p></div><div class="css-6wdwh7 css-7g786b css-8zrmd9 css-a4v0sn textContents"><p class="css-8zr56v css-304kt4">Permit Experts</p></div><div class="css-4zcw7n css-7g786b css-8zrmd9 css-a4v0sn textContents"><p class="css-8zr56v css-304kt4">Free 3D Design Rendering</p></div><p class="css-tzn6qh css-kj0t84 css-4wm1mk css-6fjkjm textContents"> Written scope of work before we break ground. No surprise change orders. </p><div class="css-fr14ia css-7g786b css-8zrmd9 css-a4v0sn textContents"><p class="css-8zr56v css-304kt4">Speed to Completion</p></div><div class="css-ga9x9x css-7g786b css-8zrmd9 css-a4v0sn textContents"><p class="css-8zr56v css-304kt4">25+ Years of Local Experience</p></div><div class="css-gszkfq css-7g786b css-8zrmd9 css-a4v0sn textContents"><p class="css-8zr56v css-304kt4">Everything Under One Roof</p></div><div class="css-y1e1du css-k57p9k css-rqi8kd"></div><div class="css-taiqyq css-naj1ct css-ktznl8"></div><div class="css-5zxdnh css-wt55do css-roiesn css-8wkz6l textContents"><p class="css-8jchzs css-g0xrs8">Cover the full cost of your project with no large upfront payment required. </p><p class="css-8zr56v css-nqyizk">​</p></div><div class="css-4sdigp css-wt55do css-roiesn css-8wkz6l textContents"><p class="css-8jchzs css-g0xrs8">Pay down your project interest-free for a year and a half before standard financing terms apply. </p><p class="css-8jchzs css-nqyizk">​</p><p class="css-8zr56v css-nqyizk">​</p></div><script>
+  if (typeof window !== 'undefined') {
+    const stickyHeader = document.getElementById('header-sticky');
+    if (stickyHeader) {
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 150) {
+          stickyHeader.style.transform = 'translateY(0)';
+        } else {
+          stickyHeader.style.transform = 'translateY(-100%)';
+        }
+      });
+    }
+  }
+</script>
