@@ -1,19 +1,39 @@
 import os
-import zipfile
-from datetime import datetime
+import shutil
+import glob
 
-timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-zip_filename = f"backups/astro_site_backup_{timestamp}.zip"
+print("Cleaning temporary files and caches to free disk space...")
 
-os.makedirs("backups", exist_ok=True)
+# 1. Clean dist and .astro
+for path in ['dist', '.astro', 'node_modules/.cache']:
+    if os.path.exists(path):
+        try:
+            shutil.rmtree(path)
+            print(f"Removed: {path}")
+        except Exception as e:
+            print(f"Error removing {path}: {e}")
 
-# Use ZIP_STORED for instantaneous uncompressed zip backup of source code and public assets
-with zipfile.ZipFile(zip_filename, 'w', zipfile.ZIP_STORED) as zipf:
-    for root, dirs, files in os.walk('.'):
-        if any(ignored in root for ignored in ['node_modules', 'dist', '.astro', '.git', 'backups']):
-            continue
-        for file in files:
-            file_path = os.path.join(root, file)
-            zipf.write(file_path, file_path)
+# 2. Clean zip backups in backups/
+for zip_file in glob.glob("backups/*.zip"):
+    try:
+        os.remove(zip_file)
+        print(f"Removed zip backup: {zip_file}")
+    except Exception as e:
+        print(f"Error removing {zip_file}: {e}")
 
-print(f"Created fast backup archive: {zip_filename}")
+# 3. Clean temporary files in system Temp directory if possible
+temp_dir = os.environ.get("TEMP", "")
+if temp_dir and os.path.exists(temp_dir):
+    print(f"Checking temp dir: {temp_dir}")
+    # Remove files starting with tmp or astro or vite in Temp
+    for f in glob.glob(os.path.join(temp_dir, "*astro*")) + glob.glob(os.path.join(temp_dir, "*vite*")):
+        try:
+            if os.path.isfile(f):
+                os.remove(f)
+            elif os.path.isdir(f):
+                shutil.rmtree(f, ignore_errors=True)
+            print(f"Cleaned temp file: {os.path.basename(f)}")
+        except Exception as e:
+            pass
+
+print("Cleanup finished!")
