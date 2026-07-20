@@ -1,39 +1,21 @@
 import os
-import shutil
-import glob
+import re
 
-print("Cleaning temporary files and caches to free disk space...")
+count = 0
+for root, dirs, files in os.walk('src'):
+    for f in files:
+        if f.endswith('.astro'):
+            path = os.path.join(root, f)
+            with open(path, 'r', encoding='utf-8') as file:
+                content = file.read()
 
-# 1. Clean dist and .astro
-for path in ['dist', '.astro', 'node_modules/.cache']:
-    if os.path.exists(path):
-        try:
-            shutil.rmtree(path)
-            print(f"Removed: {path}")
-        except Exception as e:
-            print(f"Error removing {path}: {e}")
+            # Replace "images/... or 'images/... or "./images/... with "/images/...
+            new_content = re.sub(r'([\'"])(?:\./)?(images|index Adu_files)/', r'\1/\2/', content)
 
-# 2. Clean zip backups in backups/
-for zip_file in glob.glob("backups/*.zip"):
-    try:
-        os.remove(zip_file)
-        print(f"Removed zip backup: {zip_file}")
-    except Exception as e:
-        print(f"Error removing {zip_file}: {e}")
+            if new_content != content:
+                with open(path, 'w', encoding='utf-8') as file:
+                    file.write(new_content)
+                print(f"Fixed relative JS image paths in: {path}")
+                count += 1
 
-# 3. Clean temporary files in system Temp directory if possible
-temp_dir = os.environ.get("TEMP", "")
-if temp_dir and os.path.exists(temp_dir):
-    print(f"Checking temp dir: {temp_dir}")
-    # Remove files starting with tmp or astro or vite in Temp
-    for f in glob.glob(os.path.join(temp_dir, "*astro*")) + glob.glob(os.path.join(temp_dir, "*vite*")):
-        try:
-            if os.path.isfile(f):
-                os.remove(f)
-            elif os.path.isdir(f):
-                shutil.rmtree(f, ignore_errors=True)
-            print(f"Cleaned temp file: {os.path.basename(f)}")
-        except Exception as e:
-            pass
-
-print("Cleanup finished!")
+print(f"Fixed {count} files!")
