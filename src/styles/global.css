@@ -655,16 +655,18 @@ html {
   transform: translateY(0);
 }
 
-/* Button & Card Hover Micro-animations */
-a[href^="#"], button, .adu-card-slide, .header-desktop-btn {
-  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s ease, background-color 0.25s ease, filter 0.25s ease;
+/* Enforce Hand / Pointer Cursor for all CTA buttons, links, and child elements */
+a, button, [data-cta], .header-desktop-btn, .css-h7jh0h, .css-orhuyv, .css-bz2tic, [href^="#"],
+a *, button *, [data-cta] *, .header-desktop-btn *, .css-h7jh0h *, .css-orhuyv *, .css-bz2tic *, [href^="#"] * {
+  cursor: pointer !important;
 }
 
-a[href^="#"]:hover, button:hover {
-  transform: translateY(-2px);
-  filter: brightness(1.06);
+/* Button & Card Hover Micro-animations (brightness shift only, preserving element transforms) */
+a[href^="#"], button, .adu-card-slide, .header-desktop-btn, [data-cta] {
+  transition: opacity 0.25s ease, filter 0.25s ease, background-color 0.25s ease, box-shadow 0.25s ease;
 }
 
-a[href^="#"]:active, button:active {
-  transform: translateY(0);
+a[href^="#"]:hover, button:hover, [data-cta]:hover, .header-desktop-btn:hover {
+  filter: brightness(1.1) opacity(0.95);
 }
+
