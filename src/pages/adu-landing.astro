@@ -149,5 +149,19 @@ import MobileFooter from '../components/mobile/MobileFooter.astro';
       ro.observe(container);
     }
   })();
+
+  // Smooth scroll for CTA buttons anchoring to lead form
+  document.addEventListener('click', function(e) {
+    var target = e.target.closest('a[href="#estimate"], a[href="#lead-form"]');
+    if (target) {
+      e.preventDefault();
+      var isMobile = window.innerWidth < 1024;
+      var formEl = isMobile ? document.getElementById('lead-form') : document.getElementById('estimate');
+      if (!formEl) formEl = document.getElementById('estimate') || document.getElementById('lead-form');
+      if (formEl) {
+        formEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
+  });
 </script>
 
