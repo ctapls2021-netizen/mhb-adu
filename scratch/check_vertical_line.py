@@ -1,36 +1,45 @@
-with open('src/styles/global.css', 'a', encoding='utf-8') as f:
-    f.write('''
+import os
+import re
 
-/* Smooth Scroll & Fade In Animations */
-html {
-  scroll-behavior: smooth;
-}
+# Update Process.astro
+path_proc = 'src/components/Process.astro'
+with open(path_proc, 'r', encoding='utf-8') as f:
+    c_proc = f.read()
 
-.reveal-on-scroll {
-  opacity: 0;
-  transform: translateY(24px);
-  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
-  will-change: opacity, transform;
-}
+# Add data-cta="form" and cursor: pointer to See If I Qualify
+c_proc = c_proc.replace('See If I Qualify for 0% Financing', 'See If I Qualify for 0% Financing')
+# Ensure css-h7jh0h and css-orhuyv have cursor: pointer and data-cta="form"
+c_proc = c_proc.replace('class="css-bz2tic css-h7jh0h"', 'class="css-bz2tic css-h7jh0h" data-cta="form" style="cursor: pointer;"')
+c_proc = c_proc.replace('class="css-bz2tic css-orhuyv"', 'class="css-bz2tic css-orhuyv" data-cta="form" style="cursor: pointer;"')
 
-.reveal-on-scroll.is-visible {
-  opacity: 1;
-  transform: translateY(0);
-}
+with open(path_proc, 'w', encoding='utf-8') as f:
+    f.write(c_proc)
+print("Updated Process.astro with data-cta='form'")
 
-/* Button & Card Hover Micro-animations */
-a[href^="#"], button, .adu-card-slide, .header-desktop-btn {
-  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s ease, background-color 0.25s ease, filter 0.25s ease;
-}
+# Update MobileADUEligibilityCTA.astro
+path_elig = 'src/components/mobile/MobileADUEligibilityCTA.astro'
+with open(path_elig, 'r', encoding='utf-8') as f:
+    c_elig = f.read()
 
-a[href^="#"]:hover, button:hover {
-  transform: translateY(-2px);
-  filter: brightness(1.06);
-}
+c_elig = c_elig.replace(
+    'See If I Qualify for 0% Financing',
+    'See If I Qualify for 0% Financing'
+)
+# Add data-cta="form" to both top bar and bottom button
+c_elig = re.sub(r'(<a [^>]*href="#lead-form"[^>]*>)', r'\1', c_elig)
+c_elig = c_elig.replace('background-color: #000000;', 'background-color: #000000; cursor: pointer;')
 
-a[href^="#"]:active, button:active {
-  transform: translateY(0);
-}
-''')
+with open(path_elig, 'w', encoding='utf-8') as f:
+    f.write(c_elig)
+print("Updated MobileADUEligibilityCTA.astro")
 
-print("Appended smooth animation CSS to global.css")
+# Update MobileBottomCTA.astro
+path_bot = 'src/components/mobile/MobileBottomCTA.astro'
+with open(path_bot, 'r', encoding='utf-8') as f:
+    c_bot = f.read()
+
+c_bot = c_bot.replace('background-color: #007BC3;', 'background-color: #007BC3; cursor: pointer;')
+
+with open(path_bot, 'w', encoding='utf-8') as f:
+    f.write(c_bot)
+print("Updated MobileBottomCTA.astro")

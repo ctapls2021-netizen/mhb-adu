@@ -150,19 +150,37 @@ import MobileFooter from '../components/mobile/MobileFooter.astro';
     }
   })();
 
-  // Smooth scroll for CTA buttons anchoring to lead form
+  // Universal click handler to scroll to lead form on any CTA button
   document.addEventListener('click', function(e) {
-    var target = e.target.closest('a[href="#estimate"], a[href="#lead-form"]');
-    if (target) {
+    var cta = e.target.closest('a[href="#estimate"], a[href="#lead-form"], [data-cta="form"], .header-desktop-btn, .css-h7jh0h, .css-orhuyv');
+    if (!cta) {
+      var el = e.target;
+      while (el && el !== document.body) {
+        var text = (el.textContent || '').trim();
+        if (text.includes("Check My Property") || text.includes("Get My Free ADU Estimate") || text.includes("See If I Qualify")) {
+          cta = el;
+          break;
+        }
+        el = el.parentElement;
+      }
+    }
+
+    if (cta) {
+      if (cta.getAttribute && cta.getAttribute('href') && cta.getAttribute('href').startsWith('tel:')) return;
+      if (cta.tagName === 'BUTTON' && cta.type === 'submit') return;
+
       e.preventDefault();
+      e.stopPropagation();
+
       var isMobile = window.innerWidth < 1024;
       var formEl = isMobile ? document.getElementById('lead-form') : document.getElementById('estimate');
       if (!formEl) formEl = document.getElementById('estimate') || document.getElementById('lead-form');
+
       if (formEl) {
-        formEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        formEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
       }
     }
-  });
+  }, true);
 
   // Scroll reveal observer for smooth entrance animations
   (function() {
