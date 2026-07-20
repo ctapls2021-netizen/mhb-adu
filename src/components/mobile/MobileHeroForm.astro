@@ -1,6 +1,6 @@
 ---
 ---
-<div id="lead-form" style="width: 480px; background-color: #ffffff; padding: 30px 15px; box-sizing: border-box; display: flex; flex-direction: column; align-items: center;">
+<form id="lead-form" style="width: 480px; background-color: #ffffff; padding: 30px 15px; box-sizing: border-box; display: flex; flex-direction: column; align-items: center;">
   <!-- Form Title -->
   <h2 style="font-family: 'Playfair Display', serif; font-size: 24px; font-weight: 700; line-height: 1.1em; color: #007BC3; text-align: center; margin: 0 0 10px 0; width: 100%;">
     Check Your Property's ADU Eligibility
@@ -16,29 +16,29 @@
   
   <!-- Input Fields (Static representation like original desktop, but styled with border-radius 0 and centered text) -->
   <!-- Full Name -->
-  <div style="width: 400px; height: 48px; border: 1px solid #c3c3c3 !important; border-left: 1px solid #c3c3c3 !important; background-color: #ffffff; border-radius: 0px; margin-bottom: 12px; display: flex; align-items: center; justify-content: center; box-sizing: border-box;">
-    <span style="color: #777777; font-family: Inter, sans-serif; font-size: 20px; font-weight: 500;">Full Name</span>
-  </div>
+  <input type="text" name="name" placeholder="Full Name" style="width: 400px; height: 48px; border: 1px solid #c3c3c3 !important; background-color: #ffffff; border-radius: 0px; margin-bottom: 12px; box-sizing: border-box; color: #333; font-family: Inter, sans-serif; font-size: 20px; font-weight: 500; text-align: center; outline: none;" required />
   
   <!-- Phone Number -->
-  <div style="width: 400px; height: 48px; border: 1px solid #c3c3c3 !important; border-left: 1px solid #c3c3c3 !important; background-color: #ffffff; border-radius: 0px; margin-bottom: 12px; display: flex; align-items: center; justify-content: center; box-sizing: border-box;">
-    <span style="color: #777777; font-family: Inter, sans-serif; font-size: 20px; font-weight: 500;">Phone Number</span>
-  </div>
+  <input type="tel" name="phone" placeholder="Phone Number" style="width: 400px; height: 48px; border: 1px solid #c3c3c3 !important; background-color: #ffffff; border-radius: 0px; margin-bottom: 12px; box-sizing: border-box; color: #333; font-family: Inter, sans-serif; font-size: 20px; font-weight: 500; text-align: center; outline: none;" required />
   
   <!-- Zip Code -->
-  <div style="width: 400px; height: 48px; border: 1px solid #c3c3c3 !important; border-left: 1px solid #c3c3c3 !important; background-color: #ffffff; border-radius: 0px; margin-bottom: 12px; display: flex; align-items: center; justify-content: center; box-sizing: border-box;">
-    <span style="color: #777777; font-family: Inter, sans-serif; font-size: 20px; font-weight: 500;">Zip Code</span>
-  </div>
+  <input type="text" name="zip" placeholder="Zip Code" style="width: 400px; height: 48px; border: 1px solid #c3c3c3 !important; background-color: #ffffff; border-radius: 0px; margin-bottom: 12px; box-sizing: border-box; color: #333; font-family: Inter, sans-serif; font-size: 20px; font-weight: 500; text-align: center; outline: none;" required />
   
   <!-- Project Type -->
-  <div style="width: 400px; height: 48px; border: 1px solid #c3c3c3 !important; border-left: 1px solid #c3c3c3 !important; background-color: #ffffff; border-radius: 0px; margin-bottom: 20px; display: flex; align-items: center; justify-content: center; box-sizing: border-box;">
-    <span style="color: #777777; font-family: Inter, sans-serif; font-size: 20px; font-weight: 500;">Project Type</span>
+  <div style="position: relative; width: 400px; margin-bottom: 20px;">
+    <select name="projectType" style="width: 100%; height: 48px; border: 1px solid #c3c3c3 !important; background-color: #ffffff; border-radius: 0px; box-sizing: border-box; color: #777777; font-family: Inter, sans-serif; font-size: 20px; font-weight: 500; text-align: center; text-align-last: center; appearance: none; outline: none; cursor: pointer;" required>
+      <option value="" disabled selected>Project Type</option>
+      <option value="detached">Detached ADU</option>
+      <option value="attached">Attached ADU</option>
+      <option value="conversion">Garage Conversion</option>
+      <option value="junior">Junior ADU</option>
+      <option value="notsure">Not Sure Yet</option>
+    </select>
+    <div style="position: absolute; right: 20px; top: 50%; transform: translateY(-50%); pointer-events: none; width: 0; height: 0; border-left: 6px solid transparent; border-right: 6px solid transparent; border-top: 6px solid #777;"></div>
   </div>
   
   <!-- Submit Button (blue background, border-radius 0, centered, uppercase text) -->
-  <div style="width: 400px; height: 50px; background-color: #007bc3; border-radius: 0px; display: flex; align-items: center; justify-content: center; cursor: pointer; box-sizing: border-box;">
-    <span style="color: #ffffff; font-family: Inter, sans-serif; font-size: 20px; font-weight: 700; text-transform: uppercase; text-align: center;">
-      Get My Free ADU Estimate
-    </span>
-  </div>
-</div>
+  <button type="submit" style="width: 400px; height: 50px; background-color: #007bc3; border: none; border-radius: 0px; display: flex; align-items: center; justify-content: center; cursor: pointer; box-sizing: border-box; color: #ffffff; font-family: Inter, sans-serif; font-size: 20px; font-weight: 700; text-transform: uppercase;">
+    Get My Free ADU Estimate
+  </button>
+</form>
