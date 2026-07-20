@@ -1,19 +1,16 @@
-with open('src/components/ADUTypes.astro', 'r', encoding='utf-8') as f:
+with open('src/components/Process.astro', 'r', encoding='utf-8') as f:
     c = f.read()
 
-imgs = ['Attached ADU.png', 'Detached ADU.png', 'Above-Garage ADU.png', 'Garage Conversion.png', 'JADU.png', 'Two-Story ADU.png']
-count = 0
-for img in imgs:
-    old = f'src="/images/{img}" style="object-fit: cover'
-    new = f'src="/images/{img}" style="object-fit: contain'
-    if old in c:
-        c = c.replace(old, new)
-        count += 1
-        print(f'Fixed: {img}')
-    else:
-        print(f'Not found (cover): {img}')
+import re
 
-with open('src/components/ADUTypes.astro', 'w', encoding='utf-8') as f:
+# Remove the gradient overlay
+c = re.sub(r'<div style="position: absolute; bottom: 0; left: 0; width: 100%; height: 50%; z-index: 30; background: linear-gradient\(180deg, rgba\(0,0,0,0\) 0%, rgba\(0,0,0,0\.7\) 100%\);"></div>', '', c)
+
+# Remove the text overlay
+# It looks like: <div style="position: absolute; left: 30px; bottom: 30px; z-index: 30; display: flex; flex-direction: column;"><span style="color: #FFF; font-family: 'Playfair Display', serif; font-size: 30px; font-weight: 400; line-height: 32px;">ADU</span><span style="color: #FFF; font-family: 'Inter', sans-serif; font-size: 20px; font-weight: 400; line-height: 32px; text-transform: uppercase;">.*?</span></div>
+c = re.sub(r'<div style="position: absolute; left: 30px; bottom: 30px; z-index: 30; display: flex; flex-direction: column;"><span style="color: #FFF; font-family: \'Playfair Display\', serif; font-size: 30px; font-weight: 400; line-height: 32px;">ADU</span><span style="color: #FFF; font-family: \'Inter\', sans-serif; font-size: 20px; font-weight: 400; line-height: 32px; text-transform: uppercase;">.*?</span></div>', '', c)
+
+with open('src/components/Process.astro', 'w', encoding='utf-8') as f:
     f.write(c)
 
-print(f'Total fixed: {count}')
+print('Overlays removed!')
