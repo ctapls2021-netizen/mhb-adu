@@ -322,9 +322,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     data.append('url', window.location.href);
     
     var now = new Date();
-    var optionsDate = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+    var optionsDate = { timeZone: 'America/Los_Angeles', weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+    var optionsTime = { timeZone: 'America/Los_Angeles' };
     data.append('date', now.toLocaleDateString('en-US', optionsDate));
-    data.append('time', now.toLocaleTimeString('en-US'));
+    data.append('time', now.toLocaleTimeString('en-US', optionsTime));
     var submitBtn = form.querySelector('button[type="submit"]');
     if (submitBtn) {
       submitBtn.disabled = true;
