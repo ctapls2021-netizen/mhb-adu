@@ -1,0 +1,1 @@
+<script type="module">if(typeof window<`u`){let e=document.getElementById(`header-sticky`);e&&window.addEventListener(`scroll`,()=>{window.scrollY>150?e.style.transform=`translateY(0)`:e.style.transform=`translateY(-100%)`})}

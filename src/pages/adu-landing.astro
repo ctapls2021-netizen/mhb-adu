@@ -304,33 +304,33 @@ import MobileFooter from '../components/mobile/MobileFooter.astro';
   })();
 
   // Handle form submissions to redirect to thank you page
-  (function() {
-    function handleFormSubmit(e) {
-      e.preventDefault();
-      var form = e.target;
-      var data = new FormData(form);
-      var submitBtn = form.querySelector('button[type="submit"]');
-      if (submitBtn) {
-        submitBtn.disabled = true;
-        var oldText = submitBtn.innerHTML;
-        submitBtn.innerHTML = 'Submitting...';
-      }
-      fetch(form.action, {
-        method: 'POST',
-        body: data
-      }).then(function() {
-        window.location.href = 'https://lp.myhbinc.com/thank-you/';
-      }).catch(function() {
-        // Fallback in case fetch fails due to CORS or other issues
-        window.location.href = 'https://lp.myhbinc.com/thank-you/';
-      });
+  window.handleFormSubmit = function(e) {
+    e.preventDefault();
+    var form = e.target;
+    var data = new FormData(form);
+    var submitBtn = form.querySelector('button[type="submit"]');
+    if (submitBtn) {
+      submitBtn.disabled = true;
+      var oldText = submitBtn.innerHTML;
+      submitBtn.innerHTML = 'Submitting...';
     }
+    fetch(form.action, {
+      method: 'POST',
+      body: data
+    }).then(function() {
+      window.location.href = 'https://lp.myhbinc.com/thank-you/';
+    }).catch(function() {
+      // Fallback in case fetch fails due to CORS or other issues
+      window.location.href = 'https://lp.myhbinc.com/thank-you/';
+    });
+  };
 
+  (function() {
     function attachFormHandlers() {
       var desktopForm = document.getElementById('estimate');
       var mobileForm = document.getElementById('lead-form');
-      if (desktopForm) desktopForm.addEventListener('submit', handleFormSubmit);
-      if (mobileForm) mobileForm.addEventListener('submit', handleFormSubmit);
+      if (desktopForm) desktopForm.addEventListener('submit', window.handleFormSubmit);
+      if (mobileForm) mobileForm.addEventListener('submit', window.handleFormSubmit);
     }
 
     if (document.readyState === 'loading') {
