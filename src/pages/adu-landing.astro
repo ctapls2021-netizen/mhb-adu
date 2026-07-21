@@ -253,18 +253,7 @@ import MobileFooter from '../components/mobile/MobileFooter.astro';
 
   // Universal click handler to scroll to lead form on any CTA button
   document.addEventListener('click', function(e) {
-    var cta = e.target.closest('a[href="#estimate"], a[href="#lead-form"], [data-cta="form"], .header-desktop-btn, .css-h7jh0h, .css-orhuyv');
-    if (!cta) {
-      var el = e.target;
-      while (el && el !== document.body) {
-        var text = (el.textContent || '').trim();
-        if (text.includes("Check My Property") || text.includes("Get My Free ADU Estimate") || text.includes("See If I Qualify")) {
-          cta = el;
-          break;
-        }
-        el = el.parentElement;
-      }
-    }
+    var cta = e.target.closest('a[href="#estimate"], a[href="#lead-form"], [data-cta="form"], .header-desktop-btn, .css-h7jh0h, .css-orhuyv, .css-bo4u3g, .css-tsm8h9');
 
     if (cta) {
       if (cta.getAttribute && cta.getAttribute('href') && cta.getAttribute('href').startsWith('tel:')) return;
