@@ -320,6 +320,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     var form = e.target;
     var data = new FormData(form);
     data.append('url', window.location.href);
+    
+    var now = new Date();
+    var optionsDate = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+    data.append('date', now.toLocaleDateString('en-US', optionsDate));
+    data.append('time', now.toLocaleTimeString('en-US'));
     var submitBtn = form.querySelector('button[type="submit"]');
     if (submitBtn) {
       submitBtn.disabled = true;
