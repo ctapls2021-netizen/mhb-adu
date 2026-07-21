@@ -319,6 +319,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     e.preventDefault();
     var form = e.target;
     var data = new FormData(form);
+    data.append('url', window.location.href);
     var submitBtn = form.querySelector('button[type="submit"]');
     if (submitBtn) {
       submitBtn.disabled = true;
@@ -342,6 +343,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       var mobileForm = document.getElementById('lead-form');
       if (desktopForm) desktopForm.addEventListener('submit', window.handleFormSubmit);
       if (mobileForm) mobileForm.addEventListener('submit', window.handleFormSubmit);
+      
+      // Populate hidden url fields
+      var urlInputs = document.querySelectorAll('.page-url-input');
+      urlInputs.forEach(function(input) {
+        input.value = window.location.href;
+      });
     }
 
     if (document.readyState === 'loading') {
